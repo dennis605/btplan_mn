@@ -168,5 +168,11 @@
       <field_2 name="txtBewohnerNachname" binary="false" null="false">bewohner3</field_2>
       <field_3 name="calcBewohnerName" binary="false" null="false">dennis bewohner3</field_3>
     </Row_3>
+    <Row_4>
+      <field_0 name="idBewohner" binary="false" null="false" value="11"/>
+      <field_1 name="txtBewohnerVorname" binary="false" null="false">nuer</field_1>
+      <field_2 name="txtBewohnerNachname" binary="false" null="false">bewohner</field_2>
+      <field_3 name="calcBewohnerName" binary="false" null="false">nuer bewohner</field_3>
+    </Row_4>
   </Rows>
 </TableDef>
