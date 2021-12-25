@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Relation>
+  <Name value="tblPersonaltblPersonalVeranstaltung"/>
+  <Table value="tblPersonal"/>
+  <ForeignTable value="tblPersonalVeranstaltung"/>
+  <Attributes value="0"/>
+  <PartialReplica value="false"/>
+  <Fields>
+    <Field_0 name="idPersonal" foreignname="frkPersonal"/>
+  </Fields>
+</Relation>
