@@ -5,7 +5,7 @@
 [idVeranstaltung] AUTOINCREMENT,
 [txtVeranstaltungName] TEXT (255),
 [dateVeranstaltungDatum] DATETIME,
-[dateVeranstaltungAnfang] ,
+[dateVeranstaltungAnfang] DATETIME,
 [dateVeranstaltungEnde] DATETIME,
 [txtVeranstaltungOrt] TEXT (255),
 [txtVeranstaltungBemerkung] MEMO);</SQL>
@@ -119,13 +119,13 @@
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
     </Field_2>
     <Field_3 name="dateVeranstaltungAnfang">
-      <Value name="Value" type="26"/>
+      <Value name="Value" type="8"/>
       <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="9"/>
-      <Type name="Type" type="3" value="26"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="8"/>
       <Name name="Name" type="12" value="dateVeranstaltungAnfang"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="3"/>
-      <Size name="Size" type="4" value="42"/>
+      <Size name="Size" type="4" value="8"/>
       <SourceField name="SourceField" type="12" value="dateVeranstaltungAnfang"/>
       <SourceTable name="SourceTable" type="12" value="tblVeranstaltung"/>
       <ValidateOnSet name="ValidateOnSet" type="1"/>
@@ -139,12 +139,11 @@
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>
       <FieldSize name="FieldSize" type="4"/>
-      <OriginalValue name="OriginalValue" type="26"/>
-      <VisibleValue name="VisibleValue" type="26"/>
+      <OriginalValue name="OriginalValue" type="8"/>
+      <VisibleValue name="VisibleValue" type="8"/>
       <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
       <ColumnOrder name="ColumnOrder" type="3" value="0"/>
       <ColumnHidden name="ColumnHidden" type="1" value="False"/>
-      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
       <InputMask name="InputMask" type="10" value="00:00;0;_"/>
       <IMEMode name="IMEMode" type="2" value="0"/>
       <IMESentenceMode name="IMESentenceMode" type="2" value="3"/>
@@ -264,8 +263,8 @@
       <field_0 name="idVeranstaltung" binary="false" null="false" value="2"/>
       <field_1 name="txtVeranstaltungName" binary="false" null="false">Veran2</field_1>
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="16.12.2021"/>
-      <field_3 name="dateVeranstaltungAnfang" binary="false" null="true"/>
-      <field_4 name="dateVeranstaltungEnde" binary="false" null="true"/>
+      <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="12:45:00"/>
+      <field_4 name="dateVeranstaltungEnde" binary="false" null="false" value="23:34:00"/>
       <field_5 name="txtVeranstaltungOrt" binary="false" null="false">ort1</field_5>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">dfjnjtngkwrjt</field_6>
     </Row_1>
@@ -287,5 +286,23 @@
       <field_5 name="txtVeranstaltungOrt" binary="false" null="false">ort4</field_5>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">hefuehiug</field_6>
     </Row_3>
+    <Row_4>
+      <field_0 name="idVeranstaltung" binary="false" null="false" value="5"/>
+      <field_1 name="txtVeranstaltungName" binary="false" null="false">neu2</field_1>
+      <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="26.12.2021"/>
+      <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="12:45:00"/>
+      <field_4 name="dateVeranstaltungEnde" binary="false" null="false" value="23:34:00"/>
+      <field_5 name="txtVeranstaltungOrt" binary="false" null="false">Wohnzimmer</field_5>
+      <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">Testveranstaltung</field_6>
+    </Row_4>
+    <Row_5>
+      <field_0 name="idVeranstaltung" binary="false" null="false" value="14"/>
+      <field_1 name="txtVeranstaltungName" binary="false" null="true"/>
+      <field_2 name="dateVeranstaltungDatum" binary="false" null="true"/>
+      <field_3 name="dateVeranstaltungAnfang" binary="false" null="true"/>
+      <field_4 name="dateVeranstaltungEnde" binary="false" null="true"/>
+      <field_5 name="txtVeranstaltungOrt" binary="false" null="true"/>
+      <field_6 name="txtVeranstaltungBemerkung" binary="false" null="true"/>
+    </Row_5>
   </Rows>
 </TableDef>

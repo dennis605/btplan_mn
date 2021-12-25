@@ -138,5 +138,10 @@
       <field_1 name="frkVeranstaltung" binary="false" null="false" value="4"/>
       <field_2 name="frkBewohner" binary="false" null="false" value="8"/>
     </Row_5>
+    <Row_6>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="9"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="4"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="9"/>
+    </Row_6>
   </Rows>
 </TableDef>
