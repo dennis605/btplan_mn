@@ -17,7 +17,7 @@
     <Field_0 name="idBewohnerVeranstaltung">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="17"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="idBewohnerVeranstaltung"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="0"/>
@@ -48,7 +48,7 @@
     <Field_1 name="frkVeranstaltung">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="frkVeranstaltung"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="1"/>
@@ -81,7 +81,7 @@
     <Field_2 name="frkBewohner">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="frkBewohner"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="2"/>
@@ -143,5 +143,15 @@
       <field_1 name="frkVeranstaltung" binary="false" null="false" value="4"/>
       <field_2 name="frkBewohner" binary="false" null="false" value="9"/>
     </Row_6>
+    <Row_7>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="10"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="2"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="8"/>
+    </Row_7>
+    <Row_8>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="11"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="4"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="10"/>
+    </Row_8>
   </Rows>
 </TableDef>

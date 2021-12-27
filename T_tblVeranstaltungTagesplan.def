@@ -124,29 +124,24 @@
       <field_2 name="frkVeranstaltung" binary="false" null="false" value="3"/>
     </Row_2>
     <Row_3>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="3"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
-      <field_2 name="frkVeranstaltung" binary="false" null="false" value="2"/>
-    </Row_3>
-    <Row_4>
       <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="5"/>
       <field_1 name="frkTagesplan" binary="false" null="false" value="3"/>
       <field_2 name="frkVeranstaltung" binary="false" null="false" value="2"/>
-    </Row_4>
-    <Row_5>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="6"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="3"/>
-      <field_2 name="frkVeranstaltung" binary="false" null="false" value="4"/>
-    </Row_5>
-    <Row_6>
+    </Row_3>
+    <Row_4>
       <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="7"/>
       <field_1 name="frkTagesplan" binary="false" null="false" value="3"/>
       <field_2 name="frkVeranstaltung" binary="false" null="false" value="5"/>
-    </Row_6>
-    <Row_7>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="8"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="3"/>
+    </Row_4>
+    <Row_5>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="9"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
       <field_2 name="frkVeranstaltung" binary="false" null="false" value="3"/>
-    </Row_7>
+    </Row_5>
+    <Row_6>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="10"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="4"/>
+    </Row_6>
   </Rows>
 </TableDef>
