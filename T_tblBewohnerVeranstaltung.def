@@ -153,5 +153,40 @@
       <field_1 name="frkVeranstaltung" binary="false" null="false" value="4"/>
       <field_2 name="frkBewohner" binary="false" null="false" value="10"/>
     </Row_8>
+    <Row_9>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="12"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="2"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="10"/>
+    </Row_9>
+    <Row_10>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="13"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="22"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="12"/>
+    </Row_10>
+    <Row_11>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="14"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="22"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="10"/>
+    </Row_11>
+    <Row_12>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="15"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="22"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="11"/>
+    </Row_12>
+    <Row_13>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="16"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="23"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="8"/>
+    </Row_13>
+    <Row_14>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="17"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="23"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="9"/>
+    </Row_14>
+    <Row_15>
+      <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="18"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="24"/>
+      <field_2 name="frkBewohner" binary="false" null="false" value="12"/>
+    </Row_15>
   </Rows>
 </TableDef>

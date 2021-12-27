@@ -148,5 +148,30 @@
       <field_1 name="frkVeranstaltung" binary="false" null="false" value="2"/>
       <field_2 name="frkPersonal" binary="false" null="false" value="1640374758"/>
     </Row_7>
+    <Row_8>
+      <field_0 name="idPersonalVeranstaltung" binary="false" null="false" value="50"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="22"/>
+      <field_2 name="frkPersonal" binary="false" null="false" value="1640374758"/>
+    </Row_8>
+    <Row_9>
+      <field_0 name="idPersonalVeranstaltung" binary="false" null="false" value="51"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="22"/>
+      <field_2 name="frkPersonal" binary="false" null="false" value="1640374759"/>
+    </Row_9>
+    <Row_10>
+      <field_0 name="idPersonalVeranstaltung" binary="false" null="false" value="53"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="23"/>
+      <field_2 name="frkPersonal" binary="false" null="false" value="1640374758"/>
+    </Row_10>
+    <Row_11>
+      <field_0 name="idPersonalVeranstaltung" binary="false" null="false" value="54"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="23"/>
+      <field_2 name="frkPersonal" binary="false" null="false" value="1640374759"/>
+    </Row_11>
+    <Row_12>
+      <field_0 name="idPersonalVeranstaltung" binary="false" null="false" value="55"/>
+      <field_1 name="frkVeranstaltung" binary="false" null="false" value="24"/>
+      <field_2 name="frkPersonal" binary="false" null="false" value="1640374758"/>
+    </Row_12>
   </Rows>
 </TableDef>
