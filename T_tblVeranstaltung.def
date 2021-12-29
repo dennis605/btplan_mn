@@ -225,7 +225,7 @@
     <Field_6 name="txtVeranstaltungBemerkung">
       <Value name="Value" type="12"/>
       <Attributes name="Attributes" type="4" value="2"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
       <Type name="Type" type="3" value="12"/>
       <Name name="Name" type="12" value="txtVeranstaltungBemerkung"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="6"/>
