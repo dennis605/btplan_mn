@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TableData>
+  <Rows>
+    <Row_1>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="19"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="5"/>
+    </Row_1>
+    <Row_2>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="20"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="2"/>
+    </Row_2>
+    <Row_3>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="21"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="3"/>
+    </Row_3>
+    <Row_4>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="22"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="23"/>
+    </Row_4>
+    <Row_5>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="23"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="24"/>
+    </Row_5>
+    <Row_6>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="24"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="2"/>
+    </Row_6>
+    <Row_7>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="25"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="3"/>
+    </Row_7>
+  </Rows>
+</TableData>
