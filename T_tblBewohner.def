@@ -18,7 +18,7 @@
     <Field_0 name="idBewohner">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="17"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="idBewohner"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="0"/>
@@ -135,7 +135,7 @@
       <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
-      <Expression name="Expression" type="12" value="[txtBewohnerVorname]+' '+[txtBewohnerNachname]"/>
+      <Expression name="Expression" type="12" value=""/>
       <FieldSize name="FieldSize" type="4"/>
       <OriginalValue name="OriginalValue" type="10"/>
       <VisibleValue name="VisibleValue" type="10"/>

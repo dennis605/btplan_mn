@@ -17,7 +17,7 @@
     <Field_0 name="idVeranstaltungTagesplan">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="17"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="idVeranstaltungTagesplan"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="0"/>
@@ -48,7 +48,7 @@
     <Field_1 name="frkTagesplan">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="frkTagesplan"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="1"/>
@@ -81,7 +81,7 @@
     <Field_2 name="frkVeranstaltung">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1024"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="frkVeranstaltung"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="2"/>
@@ -114,34 +114,34 @@
   </FieldDefs>
   <Rows>
     <Row_1>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="1"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
-      <field_2 name="frkVeranstaltung" binary="false" null="false" value="2"/>
-    </Row_1>
-    <Row_2>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="2"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
-      <field_2 name="frkVeranstaltung" binary="false" null="false" value="3"/>
-    </Row_2>
-    <Row_3>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="10"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
-      <field_2 name="frkVeranstaltung" binary="false" null="false" value="4"/>
-    </Row_3>
-    <Row_4>
       <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="13"/>
       <field_1 name="frkTagesplan" binary="false" null="false" value="3"/>
       <field_2 name="frkVeranstaltung" binary="false" null="false" value="22"/>
+    </Row_1>
+    <Row_2>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="19"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="5"/>
+    </Row_2>
+    <Row_3>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="20"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="2"/>
+    </Row_3>
+    <Row_4>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="21"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="3"/>
     </Row_4>
     <Row_5>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="15"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
-      <field_2 name="frkVeranstaltung" binary="false" null="false" value="24"/>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="22"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="23"/>
     </Row_5>
     <Row_6>
-      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="16"/>
-      <field_1 name="frkTagesplan" binary="false" null="false" value="1"/>
-      <field_2 name="frkVeranstaltung" binary="false" null="false" value="4"/>
+      <field_0 name="idVeranstaltungTagesplan" binary="false" null="false" value="23"/>
+      <field_1 name="frkTagesplan" binary="false" null="false" value="2"/>
+      <field_2 name="frkVeranstaltung" binary="false" null="false" value="24"/>
     </Row_6>
   </Rows>
 </TableDef>
