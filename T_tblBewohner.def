@@ -135,12 +135,12 @@
       <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
-      <Expression name="Expression" type="12" value=""/>
+      <Expression name="Expression" type="12" value="[txtBewohnerVorname]+' '+[txtBewohnerNachname]"/>
       <FieldSize name="FieldSize" type="4"/>
       <OriginalValue name="OriginalValue" type="10"/>
       <VisibleValue name="VisibleValue" type="10"/>
       <ResultType name="ResultType" type="2" value="10"/>
-      <ColumnWidth name="ColumnWidth" type="3" value="2190"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
       <ColumnOrder name="ColumnOrder" type="3" value="0"/>
       <ColumnHidden name="ColumnHidden" type="1" value="False"/>
       <DisplayControl name="DisplayControl" type="3" value="109"/>
@@ -180,5 +180,11 @@
       <field_2 name="txtBewohnerNachname" binary="false" null="false">Bukur</field_2>
       <field_3 name="calcBewohnerName" binary="false" null="false">Manfreg Bukur</field_3>
     </Row_5>
+    <Row_6>
+      <field_0 name="idBewohner" binary="false" null="false" value="13"/>
+      <field_1 name="txtBewohnerVorname" binary="false" null="false">dennis</field_1>
+      <field_2 name="txtBewohnerNachname" binary="false" null="false">bewohner1</field_2>
+      <field_3 name="calcBewohnerName" binary="false" null="false">dennis bewohner1</field_3>
+    </Row_6>
   </Rows>
 </TableDef>
