@@ -112,6 +112,32 @@
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
     </Field_2>
   </FieldDefs>
+  <Indexes>
+    <Index_0 name="PrimaryKey">
+      <Name value="PrimaryKey"/>
+      <Unique value="true"/>
+      <Clustered value="false"/>
+      <Primary value="true"/>
+      <Foreign value="false"/>
+      <Required value="true"/>
+      <IgnoreNulls value="false"/>
+      <Fields>
+        <FieldNames value="+idBewohnerVeranstaltung"/>
+      </Fields>
+    </Index_0>
+    <Index_3 name="uniqueKey">
+      <Name value="uniqueKey"/>
+      <Unique value="true"/>
+      <Clustered value="false"/>
+      <Primary value="false"/>
+      <Foreign value="false"/>
+      <Required value="false"/>
+      <IgnoreNulls value="false"/>
+      <Fields>
+        <FieldNames value="+frkVeranstaltung;+frkBewohner"/>
+      </Fields>
+    </Index_3>
+  </Indexes>
   <Rows>
     <Row_1>
       <field_0 name="idBewohnerVeranstaltung" binary="false" null="false" value="3"/>

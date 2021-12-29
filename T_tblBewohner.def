@@ -149,6 +149,20 @@
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
     </Field_3>
   </FieldDefs>
+  <Indexes>
+    <Index_0 name="PrimaryKey">
+      <Name value="PrimaryKey"/>
+      <Unique value="true"/>
+      <Clustered value="false"/>
+      <Primary value="true"/>
+      <Foreign value="false"/>
+      <Required value="true"/>
+      <IgnoreNulls value="false"/>
+      <Fields>
+        <FieldNames value="+idBewohner"/>
+      </Fields>
+    </Index_0>
+  </Indexes>
   <Rows>
     <Row_1>
       <field_0 name="idBewohner" binary="false" null="false" value="8"/>
