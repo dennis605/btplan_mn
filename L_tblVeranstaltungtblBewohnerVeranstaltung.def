@@ -3,7 +3,7 @@
   <Name value="tblVeranstaltungtblBewohnerVeranstaltung"/>
   <Table value="tblVeranstaltung"/>
   <ForeignTable value="tblBewohnerVeranstaltung"/>
-  <Attributes value="0"/>
+  <Attributes value="4352"/>
   <PartialReplica value="false"/>
   <Fields>
     <Field_0 name="idVeranstaltung" foreignname="frkVeranstaltung"/>
