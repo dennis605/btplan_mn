@@ -7,16 +7,14 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =17937
+    Width =16260
     DatasheetFontHeight =11
-    ItemSuffix =50
-    Right =23273
-    Bottom =12120
+    ItemSuffix =100
+    Right =25080
+    Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblVeranstaltung"
-    OnCurrent ="[Event Procedure]"
     DatasheetFontName ="Calibri"
-    OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -321,7 +319,7 @@ Begin Form
             End
         End
         Begin Section
-            Height =7673
+            Height =7815
             Name ="Detailbereich"
             AutoHeight =1
             AlternateBackColor =15921906
@@ -329,211 +327,16 @@ Begin Form
             AlternateBackShade =95.0
             BackThemeColorIndex =1
             Begin
-                Begin TextBox
-                    OverlapFlags =85
-                    TextAlign =1
-                    IMESentenceMode =3
-                    Left =3473
-                    Top =863
-                    Width =9788
-                    Height =563
-                    TabIndex =1
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    BorderColor =10921638
-                    ForeColor =4210752
-                    Name ="txtVeranstaltungName"
-                    ControlSource ="txtVeranstaltungName"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-
-                    LayoutCachedLeft =3473
-                    LayoutCachedTop =863
-                    LayoutCachedWidth =13261
-                    LayoutCachedHeight =1426
-                    RowStart =1
-                    RowEnd =1
-                    ColumnStart =1
-                    ColumnEnd =1
-                    LayoutGroup =1
-                    GroupTable =1
-                    Begin
-                        Begin Label
-                            OverlapFlags =85
-                            TextAlign =1
-                            Left =338
-                            Top =863
-                            Width =3069
-                            Height =563
-                            LeftMargin =44
-                            TopMargin =22
-                            RightMargin =44
-                            BottomMargin =22
-                            BorderColor =8355711
-                            ForeColor =6710886
-                            Name ="Bezeichnungsfeld3"
-                            Caption ="txtVeranstaltungName"
-                            GroupTable =1
-                            BottomPadding =150
-                            GridlineColor =10921638
-                            LayoutCachedLeft =338
-                            LayoutCachedTop =863
-                            LayoutCachedWidth =3407
-                            LayoutCachedHeight =1426
-                            RowStart =1
-                            RowEnd =1
-                            LayoutGroup =1
-                            GroupTable =1
-                        End
-                    End
-                End
-                Begin EmptyCell
-                    Left =3473
-                    Top =1613
-                    Width =9788
-                    Height =2934
-                    Name ="EmptyCell24"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-                    LayoutCachedLeft =3473
-                    LayoutCachedTop =1613
-                    LayoutCachedWidth =13261
-                    LayoutCachedHeight =4547
-                    RowStart =2
-                    RowEnd =2
-                    ColumnStart =1
-                    ColumnEnd =1
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin EmptyCell
-                    Left =338
-                    Top =4725
-                    Width =3069
-                    Height =338
-                    Name ="EmptyCell25"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-                    LayoutCachedLeft =338
-                    LayoutCachedTop =4725
-                    LayoutCachedWidth =3407
-                    LayoutCachedHeight =5063
-                    RowStart =3
-                    RowEnd =3
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin EmptyCell
-                    Left =3473
-                    Top =4725
-                    Width =9788
-                    Height =338
-                    Name ="EmptyCell26"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-                    LayoutCachedLeft =3473
-                    LayoutCachedTop =4725
-                    LayoutCachedWidth =13261
-                    LayoutCachedHeight =5063
-                    RowStart =3
-                    RowEnd =3
-                    ColumnStart =1
-                    ColumnEnd =1
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin EmptyCell
-                    Left =338
-                    Top =6510
-                    Width =3069
-                    Height =1013
-                    Name ="EmptyCell31"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-                    LayoutCachedLeft =338
-                    LayoutCachedTop =6510
-                    LayoutCachedWidth =3407
-                    LayoutCachedHeight =7523
-                    RowStart =6
-                    RowEnd =6
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin EmptyCell
-                    Left =3473
-                    Top =6510
-                    Width =9788
-                    Height =1013
-                    Name ="EmptyCell32"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-                    LayoutCachedLeft =3473
-                    LayoutCachedTop =6510
-                    LayoutCachedWidth =13261
-                    LayoutCachedHeight =7523
-                    RowStart =6
-                    RowEnd =6
-                    ColumnStart =1
-                    ColumnEnd =1
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin EmptyCell
-                    Left =338
-                    Top =5768
-                    Width =3069
-                    Height =563
-                    Name ="EmptyCell39"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-                    LayoutCachedLeft =338
-                    LayoutCachedTop =5768
-                    LayoutCachedWidth =3407
-                    LayoutCachedHeight =6331
-                    RowStart =5
-                    RowEnd =5
-                    LayoutGroup =1
-                    GroupTable =1
-                End
-                Begin EmptyCell
-                    Left =3473
-                    Top =5768
-                    Width =9788
-                    Height =563
-                    Name ="EmptyCell40"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-                    LayoutCachedLeft =3473
-                    LayoutCachedTop =5768
-                    LayoutCachedWidth =13261
-                    LayoutCachedHeight =6331
-                    RowStart =5
-                    RowEnd =5
-                    ColumnStart =1
-                    ColumnEnd =1
-                    LayoutGroup =1
-                    GroupTable =1
-                End
                 Begin CustomControl
                     Enabled = NotDefault
                     SizeMode =1
                     OverlapFlags =85
-                    Left =338
-                    Top =1613
-                    Width =3069
+                    Left =795
+                    Top =3097
+                    Width =4059
                     Height =2934
                     AutoActivate =1
-                    TabIndex =2
+                    TabIndex =5
                     BorderColor =10921638
                     Name ="ctlListView"
                     OleData = Begin
@@ -556,11 +359,11 @@ Begin Form
                         0xffffffff52006f006f007400200045006e007400720079000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
                         0x0000000016000500ffffffffffffffff010000004bf0d1bd8b85d111b16a00c0 ,
-                        0xf02836280000000000000000000000000092e645bef9d7010700000000030000 ,
+                        0xf0283628000000000000000000000000306602c53bfbd7010700000040030000 ,
                         0x0000000003004f006c0065004f0062006a006500630074004400610074006100 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
                         0x000000001e000201ffffffff02000000ffffffff000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000020000005e020000 ,
+                        0x000000000000000000000000000000000000000000000000020000009d020000 ,
                         0x0000000003004100630063006500730073004f0062006a005300690074006500 ,
                         0x4400610074006100000000000000000000000000000000000000000000000000 ,
                         0x0000000026000200ffffffffffffffffffffffff000000000000000000000000 ,
@@ -588,11 +391,11 @@ Begin Form
                         0xffffffff52006f006f007400200045006e007400720079000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
                         0x0000000016000500ffffffffffffffff010000004bf0d1bd8b85d111b16a00c0 ,
-                        0xf028362800000000000000000000000020ba2576c0f9d7010500000000030000 ,
+                        0xf028362800000000000000000000000070d1c2e231fed7010500000040030000 ,
                         0x0000000003004f006c0065004f0062006a006500630074004400610074006100 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
                         0x000000001e000201ffffffff02000000ffffffff000000000000000000000000 ,
-                        0x000000000000000000000000000000000000000000000000020000005e020000 ,
+                        0x0000000000000000000000000000000000000000000000000200000091020000 ,
                         0x0000000003004100630063006500730073004f0062006a005300690074006500 ,
                         0x4400610074006100000000000000000000000000000000000000000000000000 ,
                         0x0000000026000200ffffffffffffffffffffffff000000000000000000000000 ,
@@ -618,7 +421,7 @@ Begin Form
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
                         0xffffffff01000000feffffff0300000004000000050000000600000007000000 ,
-                        0x08000000090000000a0000000b000000feffffffffffffffffffffffffffffff ,
+                        0x08000000090000000a0000000b0000000c000000feffffffffffffffffffffff ,
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
@@ -637,20 +440,20 @@ Begin Form
                         0x2400000038000000000000000000000000000000000000000000000039333638 ,
                         0x323635452d383546452d313164312d384245332d303030304638373534444131 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x000000004bf0d1bd8b85d111b16a00c0f0283628214334120800000023150000 ,
-                        0x351400004e087deb010006001c000000000000000000000002a0006fd08cc825 ,
-                        0x01efcdab00000500d08cc825020000000800008005000080de4e270700000000 ,
-                        0x00000000000000001fdeecbd0100050021d316bf0352e30b918fce119de300aa ,
-                        0x004bb851010000009001f82401000d4d532053616e7320536572696600000800 ,
-                        0x000049746d736400000002000000030000000c000000436f626a640000000800 ,
-                        0x0000080000000100000000000000160000006100310036003400300033003700 ,
-                        0x34003700350038000000080000004974656d6400000004000000010000002400 ,
-                        0x000035003800640065006e006e0069007300200070006500720073006f006e00 ,
-                        0x61006c0031000400000000000000080000005362497364000000020000000000 ,
-                        0x00000c000000436f626a64000000080000000800000001000000000000001600 ,
-                        0x0000610031003600340030003300370034003700350039000000080000004974 ,
-                        0x656d640001000000feffffff0300000004000000050000000600000007000000 ,
-                        0x08000000090000000a0000000b000000feffffffffffffffffffffffffffffff ,
+                        0x000000004bf0d1bd8b85d111b16a00c0f02836282143341208000000f51b0000 ,
+                        0x351400004e087deb010006001c000000000000000000000007a2006f301a7cda ,
+                        0x01efcdab00000500301a7cda020000000800008005000080de4e85bb00000000 ,
+                        0x00000000000000001fdeecbd0100050041ea2f720352e30b918fce119de300aa ,
+                        0x004bb851010000009001f82401000d4d532053616e7320536572696601002000 ,
+                        0x000000000000ac140000050000001a00000000000000000000001f0000004e00 ,
+                        0x61006d006500200050006500720073006f006e0061006c004e616d6500080000 ,
+                        0x0049746d736400000002000000030000000c000000436f626a64000000080000 ,
+                        0x0008000000010000000000000016000000610031003600340030003300370034 ,
+                        0x003700350038000000080000004974656d640000000400000001000000160000 ,
+                        0x004c006900730061002000480065006e00670065006e00000004000000000000 ,
+                        0x0008000000536249736400000002000000000000000c000000436f626a640000 ,
+                        0x0008000001000000feffffff0300000004000000050000000600000007000000 ,
+                        0x08000000090000000a0000000b0000000c000000feffffffffffffffffffffff ,
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
                         0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
@@ -669,27 +472,27 @@ Begin Form
                         0x2400000038000000000000000000000000000000000000000000000039333638 ,
                         0x323635452d383546452d313164312d384245332d303030304638373534444131 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
-                        0x000000004bf0d1bd8b85d111b16a00c0f02836282143341208000000bc190000 ,
-                        0x351400004e087deb010006001c000000000000000000000002a0006fd08cc825 ,
-                        0x01efcdab00000500d08cc825020000000800008005000080de4e270700000000 ,
-                        0x00000000000000001fdeecbd0100050021d316bf0352e30b918fce119de300aa ,
-                        0x004bb851010000009001f82401000d4d532053616e7320536572696600000800 ,
-                        0x000049746d736400000002000000030000000c000000436f626a640000000800 ,
-                        0x0000080000000100000000000000160000006100310036003400300033003700 ,
-                        0x34003700350038000000080000004974656d6400000004000000000000002400 ,
-                        0x000035003800640065006e006e0069007300200070006500720073006f006e00 ,
-                        0x61006c0031000400000000000000080000005362497364000000020000000000 ,
-                        0x00000c000000436f626a64000000080000000800000001000000000000001600 ,
-                        0x0000610031003600340030003300370034003700350039000000080000004974 ,
-                        0x656d6400000004000000010000002400000035003900640065006e006e006900 ,
-                        0x7300200070006500720073006f006e0061006c00320004000000000000000800 ,
-                        0x0000536249736400000002000000000000000c000000436f626a640000000800 ,
-                        0x0000080000000100000000000000160000006100310036003400300033003700 ,
-                        0x34003700360030000000080000004974656d6400000004000000010000002400 ,
-                        0x000036003000640065006e006e0069007300200070006500720073006f006e00 ,
-                        0x61006c0033000400000000000000080000005362497364000000020000000000 ,
-                        0x0000006e0061006c003300040000000000000008000000536249736400000002 ,
-                        0x0000000000000000020000000000000000000000000000000000000000000000 ,
+                        0x000000004bf0d1bd8b85d111b16a00c0f02836282143341208000000f51b0000 ,
+                        0x351400004e087deb010006001c000000000000000000000007a2006f402e53e7 ,
+                        0x01efcdab00000500402e53e7020000000800008005000080de4e45ed00000000 ,
+                        0x00000000000000001fdeecbd01000500b1cdbbda0352e30b918fce119de300aa ,
+                        0x004bb851010000009001f82401000d4d532053616e7320536572696601002000 ,
+                        0x000000000000ac140000050000001a00000000000000000000001f0000004e00 ,
+                        0x61006d006500200050006500720073006f006e0061006c004e616d6500080000 ,
+                        0x0049746d736400000002000000030000000c000000436f626a64000000080000 ,
+                        0x0008000000010000000000000016000000610031003600340030003300370034 ,
+                        0x003700350038000000080000004974656d640000000400000001000000240000 ,
+                        0x0035003800640065006e006e0069007300200070006500720073006f006e0061 ,
+                        0x006c003100040000000000000008000000536249736400000002000000000000 ,
+                        0x000c000000080000000100000000000000160000006100310036003400300033 ,
+                        0x00370034003700350039000000080000004974656d6400000004000000010000 ,
+                        0x002400000035003900640065006e006e0069007300200070006500720073006f ,
+                        0x006e0061006c0032000400000000000000080000005362497364000000020000 ,
+                        0x00000000000c000000436f626a64000000080000000800000001000000000000 ,
+                        0x0016000000610031003600340030003300370034003700360030000000080000 ,
+                        0x004974656d6400000004000000010000002400000036003000640065006e006e ,
+                        0x0069007300200070006500720073006f006e0061006c00330004000000000000 ,
+                        0x0008000000536249736400000002000000000000006400000002000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
                         0x0000000000000000000000000000000000000000000000000000000000000000 ,
@@ -701,18 +504,15 @@ Begin Form
                     End
                     OLEClass ="ListViewCtrl"
                     Class ="MSComctlLib.ListViewCtrl.2"
-                    GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =338
-                    LayoutCachedTop =1613
-                    LayoutCachedWidth =3407
-                    LayoutCachedHeight =4547
+                    LayoutCachedLeft =795
+                    LayoutCachedTop =3097
+                    LayoutCachedWidth =4854
+                    LayoutCachedHeight =6031
                     RowStart =2
                     RowEnd =2
-                    LayoutGroup =1
-                    GroupTable =1
                 End
                 Begin ComboBox
                     OverlapFlags =85
@@ -720,11 +520,10 @@ Begin Form
                     IMESentenceMode =3
                     ColumnCount =2
                     ListWidth =1440
-                    Left =3473
-                    Top =5250
-                    Width =9788
-                    Height =338
-                    TabIndex =3
+                    Left =4928
+                    Top =338
+                    Width =4824
+                    Height =337
                     BorderColor =10921638
                     ForeColor =3484194
                     ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
@@ -733,6 +532,9 @@ Begin Form
                     RowSource ="SELECT [tblVeranstaltung].[idVeranstaltung], [tblVeranstaltung].[txtVeranstaltun"
                         "gName] FROM tblVeranstaltung; "
                     ColumnWidths ="0;1440"
+                    BaseInfo ="\"SELECT [tblVeranstaltung].[idVeranstaltung], [tblVeranstaltung].[txtVeranstalt"
+                        "ungName] FROM tblVeranstaltung; \";\"tblVeranstaltung\";\"\";\"idVeranstaltung\""
+                        ";\"txtVeranstaltungName\";\"PrimaryKey\""
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
@@ -758,10 +560,495 @@ Begin Form
                         End
                     End
 
-                    LayoutCachedLeft =3473
-                    LayoutCachedTop =5250
-                    LayoutCachedWidth =13261
-                    LayoutCachedHeight =5588
+                    LayoutCachedLeft =4928
+                    LayoutCachedTop =338
+                    LayoutCachedWidth =9752
+                    LayoutCachedHeight =675
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =803
+                            Top =338
+                            Width =4059
+                            Height =337
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="cmbVeranstaltung_Bezeichnungsfeld"
+                            Caption ="Veranstaltung"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =803
+                            LayoutCachedTop =338
+                            LayoutCachedWidth =4862
+                            LayoutCachedHeight =675
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4920
+                    Top =7252
+                    Width =4824
+                    Height =563
+                    TabIndex =7
+                    LeftMargin =44
+                    TopMargin =22
+                    RightMargin =44
+                    BottomMargin =22
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="idVeranstaltung"
+                    ControlSource ="idVeranstaltung"
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4920
+                    LayoutCachedTop =7252
+                    LayoutCachedWidth =9744
+                    LayoutCachedHeight =7815
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =795
+                            Top =7252
+                            Width =4059
+                            Height =563
+                            LeftMargin =44
+                            TopMargin =22
+                            RightMargin =44
+                            BottomMargin =22
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Bezeichnungsfeld0"
+                            Caption ="idVeranstaltung"
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =795
+                            LayoutCachedTop =7252
+                            LayoutCachedWidth =4854
+                            LayoutCachedHeight =7815
+                            RowStart =5
+                            RowEnd =5
+                        End
+                    End
+                End
+                Begin CustomControl
+                    Enabled = NotDefault
+                    SizeMode =1
+                    OverlapFlags =85
+                    Left =4920
+                    Top =3097
+                    Width =4823
+                    Height =2934
+                    AutoActivate =1
+                    TabIndex =6
+                    BorderColor =10921638
+                    Name ="ctlListView2"
+                    OleData = Begin
+                        0x00180000d0cf11e0a1b11ae1000000000000000000000000000000003e000300 ,
+                        0xfeff090006000000000000000000000001000000000000000000000000100000 ,
+                        0x0700000001000000feffffff0000000001000000ffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff52006f006f007400200045006e007400720079000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000016000500ffffffffffffffff010000004bf0d1bd8b85d111b16a00c0 ,
+                        0xf0283628000000000000000000000000a046c3e231fed70108000000c0040000 ,
+                        0x0000000043006f006e00740065006e0074007300000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000012000201ffffffff02000000ffffffff000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000020000002d040000 ,
+                        0x0000000003004100630063006500730073004f0062006a005300690074006500 ,
+                        0x4400610074006100000000000000000000000000000000000000000000000000 ,
+                        0x0000000026000200ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000000000005c000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000fefffffffdffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xfeffffff090000000a000000feffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff52006f006f007400200045006e007400720079000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000016000500ffffffffffffffff010000004bf0d1bd8b85d111b16a00c0 ,
+                        0xf0283628000000000000000000000000306602c53bfbd7010500000080030000 ,
+                        0x0000000043006f006e00740065006e0074007300000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000012000201ffffffff02000000ffffffff000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000002000000c1020000 ,
+                        0x0000000003004100630063006500730073004f0062006a005300690074006500 ,
+                        0x4400610074006100000000000000000000000000000000000000000000000000 ,
+                        0x0000000026000200ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x000000000000000000000000000000000000000000000000000000005c000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000ffffffffffffffffffffffff000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000fffffffffffffffffefffffffdfffffffeffffff06000000feffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff01000000feffffff0300000004000000050000000600000007000000 ,
+                        0x08000000090000000a0000000b0000000c0000000d000000feffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff5c000000000000000100000000000000000000000000000000000000 ,
+                        0x2400000038000000000000000000000000000000000000000000000039333638 ,
+                        0x323635452d383546452d313164312d384245332d303030304638373534444131 ,
+                        0xf1c716bf0352e30b918fce119de300aa004bb851010000009001f82401000d4d ,
+                        0x5320536121433412080000003a210000351400004e087deb010006001c000000 ,
+                        0x000000000000000007a2006f402e53e701efcdab00000500402e53e702000000 ,
+                        0x0800008005000080de4e45ed0000000000000000000000001fdeecbd01000500 ,
+                        0xd1cdbbda0352e30b918fce119de300aa004bb851010000009001f82401000d4d ,
+                        0x532053616e7320536572696601002000000000000000ac140000050000001a00 ,
+                        0x000000000000000000001f0000004e0061006d00650020004200650077006f00 ,
+                        0x68006e00650072004e616d65000800000049746d736400000002000000040000 ,
+                        0x000c000000436f626a6400000008000000080000000100000000000000040000 ,
+                        0x0061003800080000004974656d64000000040000000100000020000000640065 ,
+                        0x006e006e006900730020006200650077006f0068006e00650072003100040000 ,
+                        0x000000000008000000536249736400000002000000000000000c000000436f62 ,
+                        0x6a64000000080000000800000001000000000000000400000061003900080000 ,
+                        0x004974656d64000000040000000100000020000000640065006e006e00690073 ,
+                        0x0020006200650077006f0068006e006500720032000400000000000000080000 ,
+                        0x00536249736400000002000000000000000c000000436f626a64000000080000 ,
+                        0x0008000000010000000000000006000000610031003000000008000000497465 ,
+                        0x6d64000000040000000100000020000000640065006e006e0069007300200062 ,
+                        0x00650077006f0068006e00650072003300040000000000000008000000536249 ,
+                        0x736400000002000000000000000c000000436f626a6400000008000000080000 ,
+                        0x000100000000000000060000006100310031000000080000004974656d640000 ,
+                        0x0004000000010000001a0000006e0075006500720020006200650077006f0068 ,
+                        0x006e006500720000000400000000000000080000005362497364000000020000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000001000000feffffff0300000004000000050000000600000007000000 ,
+                        0x08000000090000000a0000000b0000000c0000000d0000000e0000000f000000 ,
+                        0x100000001100000012000000feffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffff5c000000000000000100000000000000000000000000000000000000 ,
+                        0x2400000038000000000000000000000000000000000000000000000039333638 ,
+                        0x323635452d383546452d313164312d384245332d303030304638373534444131 ,
+                        0xf1c716bf0352e30b918fce119de300aa004bb851010000009001f82401000d4d ,
+                        0x5320536121433412080000003a210000351400004e087deb010006001c000000 ,
+                        0x000000000000000007a2006f301a7cda01efcdab00000500301a7cda02000000 ,
+                        0x0800008005000080de4e85bb0000000000000000000000001fdeecbd01000500 ,
+                        0x61ea2f720352e30b918fce119de300aa004bb851010000009001f82401000d4d ,
+                        0x532053616e7320536572696601002000000000000000ac140000050000001a00 ,
+                        0x000000000000000000001f0000004e0061006d00650020004200650077006f00 ,
+                        0x68006e00650072004e616d65000800000049746d736400000002000000070000 ,
+                        0x000c000000436f626a6400000008000000080000000100000000000000040000 ,
+                        0x0061003800080000004974656d640000000400000001000000120000006e0069 ,
+                        0x0063006800740020006e00650075000000040000000000000008000000536249 ,
+                        0x736400000002000000000000000c000000436f626a6400000008000000080000 ,
+                        0x0001000000000000000400000061003900080000004974656d64000000040000 ,
+                        0x000100000020000000640065006e006e006900730020006200650077006f0068 ,
+                        0x006e006500720032000400000000000000080000005362497364000000020000 ,
+                        0x00000000000c000000436f626a64000000080000000800000001000000000000 ,
+                        0x00060000006100310030000000080000004974656d6400000004000000010000 ,
+                        0x0020000000640065006e006e006900730020006200650077006f0068006e0065 ,
+                        0x0072003300040000000000000008000000536249736400000002000000000000 ,
+                        0x000c000000436f626a6400000008000000080000000100000000000000060000 ,
+                        0x006100310031000000080000004974656d6400000004000000010000001a0000 ,
+                        0x006e0075006500720020006200650077006f0068006e00650072000000040000 ,
+                        0x000000000008000000536249736400000002000000000000000c000000436f62 ,
+                        0x6a64000000080000000800000001000000000000000600000061003100320000 ,
+                        0x00080000004974656d6400000004000000010000001a0000004d0061006e0066 ,
+                        0x007200650067002000420075006b007500720000000400000000000000080000 ,
+                        0x00536249736400000002000000000000000c000000436f626a64000000080000 ,
+                        0x0008000000010000000000000006000000610031003400000008000000497465 ,
+                        0x6d6400000004000000010000001600000074007a0066007a0074006600200075 ,
+                        0x00660074007a0000000400000000000000080000005362497364000000020000 ,
+                        0x00000000000c000000436f626a64000000080000000800000001000000000000 ,
+                        0x00060000006100310035000000080000004974656d6400000004000000010000 ,
+                        0x002e0000007700690072006b006c0069006300680020006e0065007500650072 ,
+                        0x002000620065006e00750074007a006500720000000400000000000000080000 ,
+                        0x0053624973640000000200000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    OLEClass ="ListViewCtrl"
+                    Class ="MSComctlLib.ListViewCtrl.2"
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4920
+                    LayoutCachedTop =3097
+                    LayoutCachedWidth =9743
+                    LayoutCachedHeight =6031
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4928
+                    Top =863
+                    Width =4824
+                    Height =293
+                    TabIndex =1
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="dateVeranstaltungDatum"
+                    ControlSource ="dateVeranstaltungDatum"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4928
+                    LayoutCachedTop =863
+                    LayoutCachedWidth =9752
+                    LayoutCachedHeight =1156
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =803
+                            Top =863
+                            Width =4059
+                            Height =293
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Bezeichnungsfeld65"
+                            Caption ="dateVeranstaltungDatum"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =803
+                            LayoutCachedTop =863
+                            LayoutCachedWidth =4862
+                            LayoutCachedHeight =1156
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4928
+                    Top =1343
+                    Width =4824
+                    Height =293
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="dateVeranstaltungAnfang"
+                    ControlSource ="dateVeranstaltungAnfang"
+                    InputMask ="00:00;0;_"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4928
+                    LayoutCachedTop =1343
+                    LayoutCachedWidth =9752
+                    LayoutCachedHeight =1636
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =803
+                            Top =1343
+                            Width =4059
+                            Height =293
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Bezeichnungsfeld72"
+                            Caption ="dateVeranstaltungAnfang"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =803
+                            LayoutCachedTop =1343
+                            LayoutCachedWidth =4862
+                            LayoutCachedHeight =1636
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4928
+                    Top =1823
+                    Width =4824
+                    Height =293
+                    TabIndex =3
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="dateVeranstaltungEnde"
+                    ControlSource ="dateVeranstaltungEnde"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4928
+                    LayoutCachedTop =1823
+                    LayoutCachedWidth =9752
+                    LayoutCachedHeight =2116
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =803
+                            Top =1823
+                            Width =4059
+                            Height =293
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Bezeichnungsfeld79"
+                            Caption ="dateVeranstaltungEnde"
+                            GroupTable =1
+                            BottomPadding =150
+                            GridlineColor =10921638
+                            LayoutCachedLeft =803
+                            LayoutCachedTop =1823
+                            LayoutCachedWidth =4862
+                            LayoutCachedHeight =2116
+                            RowStart =3
+                            RowEnd =3
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4928
+                    Top =2303
+                    Width =4824
+                    Height =293
+                    TabIndex =4
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtVeranstaltungOrt"
+                    ControlSource ="txtVeranstaltungOrt"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4928
+                    LayoutCachedTop =2303
+                    LayoutCachedWidth =9752
+                    LayoutCachedHeight =2596
                     RowStart =4
                     RowEnd =4
                     ColumnStart =1
@@ -772,79 +1059,23 @@ Begin Form
                         Begin Label
                             OverlapFlags =85
                             TextAlign =1
-                            Left =338
-                            Top =5250
-                            Width =3069
-                            Height =338
+                            Left =803
+                            Top =2303
+                            Width =4059
+                            Height =293
                             BorderColor =8355711
                             ForeColor =6710886
-                            Name ="cmbVeranstaltung_Bezeichnungsfeld"
-                            Caption ="cmbVeranstaltung"
+                            Name ="Bezeichnungsfeld93"
+                            Caption ="txtVeranstaltungOrt"
                             GroupTable =1
                             BottomPadding =150
                             GridlineColor =10921638
-                            LayoutCachedLeft =338
-                            LayoutCachedTop =5250
-                            LayoutCachedWidth =3407
-                            LayoutCachedHeight =5588
+                            LayoutCachedLeft =803
+                            LayoutCachedTop =2303
+                            LayoutCachedWidth =4862
+                            LayoutCachedHeight =2596
                             RowStart =4
                             RowEnd =4
-                            LayoutGroup =1
-                            GroupTable =1
-                        End
-                    End
-                End
-                Begin TextBox
-                    OverlapFlags =85
-                    TextAlign =1
-                    IMESentenceMode =3
-                    Left =3473
-                    Top =338
-                    Width =9788
-                    Height =337
-                    LeftMargin =44
-                    TopMargin =22
-                    RightMargin =44
-                    BottomMargin =22
-                    BorderColor =10921638
-                    ForeColor =4210752
-                    Name ="idVeranstaltung"
-                    ControlSource ="idVeranstaltung"
-                    GroupTable =1
-                    BottomPadding =150
-                    GridlineColor =10921638
-
-                    LayoutCachedLeft =3473
-                    LayoutCachedTop =338
-                    LayoutCachedWidth =13261
-                    LayoutCachedHeight =675
-                    ColumnStart =1
-                    ColumnEnd =1
-                    LayoutGroup =1
-                    GroupTable =1
-                    Begin
-                        Begin Label
-                            OverlapFlags =85
-                            TextAlign =1
-                            Left =338
-                            Top =338
-                            Width =3069
-                            Height =337
-                            LeftMargin =44
-                            TopMargin =22
-                            RightMargin =44
-                            BottomMargin =22
-                            BorderColor =8355711
-                            ForeColor =6710886
-                            Name ="Bezeichnungsfeld0"
-                            Caption ="idVeranstaltung"
-                            GroupTable =1
-                            BottomPadding =150
-                            GridlineColor =10921638
-                            LayoutCachedLeft =338
-                            LayoutCachedTop =338
-                            LayoutCachedWidth =3407
-                            LayoutCachedHeight =675
                             LayoutGroup =1
                             GroupTable =1
                         End
