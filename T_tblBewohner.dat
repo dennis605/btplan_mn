@@ -49,5 +49,11 @@
       <field_2 name="txtBewohnerNachname" binary="false" null="false">me.txtBewohnerNachname</field_2>
       <field_3 name="calcBewohnerName" binary="false" null="false">me.txtBewohnerVorname me.txtBewohnerNachname</field_3>
     </Row_8>
+    <Row_9>
+      <field_0 name="idBewohner" binary="false" null="false" value="21"/>
+      <field_1 name="txtBewohnerVorname" binary="false" null="false">nicht</field_1>
+      <field_2 name="txtBewohnerNachname" binary="false" null="false">neu</field_2>
+      <field_3 name="calcBewohnerName" binary="false" null="false">nicht neu</field_3>
+    </Row_9>
   </Rows>
 </TableData>

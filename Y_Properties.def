@@ -13,6 +13,7 @@
     <CheckTruncatedNumFields name="CheckTruncatedNumFields" type="4" value="1" sort="1"/>
     <ClearCacheonClose name="Clear Cache on Close" type="4" value="0" sort="1"/>
     <ContinuousFormNavigationKeys name="Continuous Form Navigation Keys" type="4" value="0" sort="1"/>
+    <DefaultBackupLocation name="DefaultBackupLocation" type="10" value="C:\Users\denni\OneDrive\BACKUP\" sort="1"/>
     <DesignWithData name="DesignWithData" type="1" value="True" sort="1"/>
     <HasOfflineLists name="HasOfflineLists" type="3" value="70" sort="1"/>
     <NavPaneCategory name="NavPane Category" type="4" value="0" sort="1"/>
