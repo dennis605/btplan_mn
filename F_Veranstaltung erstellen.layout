@@ -12,15 +12,12 @@ Begin Form
     Width =10197
     DatasheetFontHeight =11
     ItemSuffix =42
-    Right =17970
-    Bottom =12120
+    Right =25080
+    Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblVeranstaltung"
     Caption ="Veranstaltung erstellen"
-    OnCurrent ="[Event Procedure]"
-    BeforeUpdate ="[Event Procedure]"
     DatasheetFontName ="Calibri"
-    OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -518,7 +515,6 @@ Begin Form
                     ForeColor =4210752
                     Name ="btnVeranstaltungAnlegen"
                     Caption ="Anlegen"
-                    OnClick ="[Event Procedure]"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =623
@@ -547,7 +543,6 @@ Begin Form
                     ForeColor =4210752
                     Name ="btnVeranstaltungSpeichern"
                     Caption ="Speichern"
-                    OnClick ="[Event Procedure]"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =2040
@@ -576,7 +571,6 @@ Begin Form
                     ForeColor =4210752
                     Name ="Löschen"
                     Caption ="Löschen"
-                    OnClick ="[Event Procedure]"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =3968
@@ -688,7 +682,6 @@ Begin Form
                     ForeColor =4210752
                     Name ="btnVeranstaltungAbbruch"
                     Caption ="Abbruch"
-                    OnClick ="[Event Procedure]"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =5442

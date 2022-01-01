@@ -77,7 +77,7 @@ Private Sub ListViewFuellen()
                 .ListSubItems.Add , , rst!idVeranstaltung
                 
                 If rst!dateVeranstaltungAnfang = "few" Then
-                rst!dateVeranstaltungAnfang = "00:00"
+                    rst!dateVeranstaltungAnfang = "00:00"
                 End If
                 
                 .ListSubItems.Add 1, "start", rst!dateVeranstaltungAnfang

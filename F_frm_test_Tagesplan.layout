@@ -565,7 +565,6 @@ Begin Form
                     ForeColor =4210752
                     Name ="btnReport"
                     Caption ="Befehl1"
-                    OnClick ="[Event Procedure]"
                     ControlTipText ="Abfrage ausführen"
                     GridlineColor =10921638
                     ImageData = Begin

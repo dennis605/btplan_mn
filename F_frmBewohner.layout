@@ -9,11 +9,12 @@ Begin Form
     GridY =10
     Width =11905
     DatasheetFontHeight =11
-    ItemSuffix =38
+    ItemSuffix =122
     Right =25080
     Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblBewohner"
+    BeforeUpdate ="[Event Procedure]"
     DatasheetFontName ="Calibri"
     AllowDatasheetView =0
     FilterOnLoad =0
@@ -159,198 +160,222 @@ Begin Form
             Begin
                 Begin TextBox
                     OverlapFlags =85
+                    TextAlign =1
                     IMESentenceMode =3
-                    Left =1417
-                    Top =340
-                    Width =1474
+                    Left =2453
+                    Top =930
+                    Width =2265
                     Height =563
                     BorderColor =10921638
                     ForeColor =4210752
-                    Name ="txtVorname"
-                    ControlSource ="txtBewohnerNachname"
+                    Name ="hiddenVorname"
+                    ControlSource ="txtBewohnerVorname"
+                    GroupTable =1
+                    BottomPadding =150
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =1417
-                    LayoutCachedTop =340
-                    LayoutCachedWidth =2891
-                    LayoutCachedHeight =903
+                    LayoutCachedLeft =2453
+                    LayoutCachedTop =930
+                    LayoutCachedWidth =4718
+                    LayoutCachedHeight =1493
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
                     Begin
                         Begin Label
                             OverlapFlags =85
-                            Top =340
-                            Width =863
-                            Height =293
+                            TextAlign =1
+                            Left =398
+                            Top =930
+                            Width =1988
+                            Height =563
                             BorderColor =8355711
                             ForeColor =6710886
                             Name ="Bezeichnungsfeld28"
                             Caption ="Vorname"
+                            GroupTable =1
+                            BottomPadding =150
                             GridlineColor =10921638
-                            LayoutCachedTop =340
-                            LayoutCachedWidth =863
-                            LayoutCachedHeight =633
+                            LayoutCachedLeft =398
+                            LayoutCachedTop =930
+                            LayoutCachedWidth =2386
+                            LayoutCachedHeight =1493
+                            RowStart =1
+                            RowEnd =1
+                            LayoutGroup =1
+                            GroupTable =1
                         End
                     End
                 End
                 Begin TextBox
                     OverlapFlags =85
+                    TextAlign =1
                     IMESentenceMode =3
-                    Left =1417
-                    Top =1190
-                    Width =1587
-                    Height =293
+                    Left =2453
+                    Top =1680
+                    Width =2265
+                    Height =488
                     TabIndex =1
                     BorderColor =10921638
                     ForeColor =4210752
-                    Name ="txtNachname"
+                    Name ="hiddenNachname"
                     ControlSource ="txtBewohnerNachname"
+                    GroupTable =1
+                    BottomPadding =150
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =1417
-                    LayoutCachedTop =1190
-                    LayoutCachedWidth =3004
-                    LayoutCachedHeight =1483
+                    LayoutCachedLeft =2453
+                    LayoutCachedTop =1680
+                    LayoutCachedWidth =4718
+                    LayoutCachedHeight =2168
+                    RowStart =2
+                    RowEnd =2
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
                     Begin
                         Begin Label
                             OverlapFlags =85
-                            Top =1190
-                            Width =998
-                            Height =293
+                            TextAlign =1
+                            Left =398
+                            Top =1680
+                            Width =1988
+                            Height =488
                             BorderColor =8355711
                             ForeColor =6710886
                             Name ="Bezeichnungsfeld30"
                             Caption ="Nachname"
+                            GroupTable =1
+                            BottomPadding =150
                             GridlineColor =10921638
-                            LayoutCachedTop =1190
-                            LayoutCachedWidth =998
-                            LayoutCachedHeight =1483
+                            LayoutCachedLeft =398
+                            LayoutCachedTop =1680
+                            LayoutCachedWidth =2386
+                            LayoutCachedHeight =2168
+                            RowStart =2
+                            RowEnd =2
+                            LayoutGroup =1
+                            GroupTable =1
                         End
                     End
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =170
-                    Top =2211
+                    Left =398
+                    Top =2355
                     Width =1988
                     Height =338
                     TabIndex =2
                     ForeColor =4210752
                     Name ="btnCopy"
                     Caption ="Datensatz duplizieren"
-                    OnClick ="[Event Procedure]"
+                    GroupTable =1
+                    BottomPadding =150
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =170
-                    LayoutCachedTop =2211
-                    LayoutCachedWidth =2158
-                    LayoutCachedHeight =2549
+                    LayoutCachedLeft =398
+                    LayoutCachedTop =2355
+                    LayoutCachedWidth =2386
+                    LayoutCachedHeight =2693
+                    RowStart =3
+                    RowEnd =3
+                    LayoutGroup =1
                     BackColor =14461583
                     BorderColor =14461583
                     HoverColor =15189940
                     PressedColor =9917743
                     HoverForeColor =4210752
                     PressedForeColor =4210752
+                    GroupTable =1
                     WebImagePaddingLeft =4
                     WebImagePaddingTop =4
                     WebImagePaddingRight =3
-                    WebImagePaddingBottom =3
+                    WebImagePaddingBottom =19
                     Overlaps =1
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =3344
-                    Top =2324
-                    Width =750
+                    Left =398
+                    Top =2880
+                    Width =1988
                     Height =338
                     TabIndex =3
                     ForeColor =4210752
                     Name ="btnLöschen"
                     Caption ="löschen"
+                    GroupTable =1
+                    BottomPadding =150
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =3344
-                    LayoutCachedTop =2324
-                    LayoutCachedWidth =4094
-                    LayoutCachedHeight =2662
+                    LayoutCachedLeft =398
+                    LayoutCachedTop =2880
+                    LayoutCachedWidth =2386
+                    LayoutCachedHeight =3218
+                    RowStart =4
+                    RowEnd =4
+                    LayoutGroup =1
                     BackColor =14461583
                     BorderColor =14461583
                     HoverColor =15189940
                     PressedColor =9917743
                     HoverForeColor =4210752
                     PressedForeColor =4210752
+                    GroupTable =1
                     WebImagePaddingLeft =4
                     WebImagePaddingTop =4
                     WebImagePaddingRight =3
-                    WebImagePaddingBottom =3
+                    WebImagePaddingBottom =19
                     Overlaps =1
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =4875
-                    Top =2324
-                    Width =930
+                    Left =398
+                    Top =3405
+                    Width =1988
                     Height =338
                     TabIndex =4
                     ForeColor =4210752
                     Name ="btnSave"
                     Caption ="speichern"
+                    OnClick ="[Event Procedure]"
+                    GroupTable =1
+                    BottomPadding =150
                     GridlineColor =10921638
-                    OnClickEmMacro = Begin
-                        Version =196611
-                        ColumnsShown =10
-                        Begin
-                            Action ="OnError"
-                            Argument ="0"
-                        End
-                        Begin
-                            Action ="RunCommand"
-                            Argument ="97"
-                        End
-                        Begin
-                            Condition ="[MacroError]<>0"
-                            Action ="MsgBox"
-                            Argument ="=[MacroError].[Description]"
-                            Argument ="-1"
-                            Argument ="0"
-                        End
-                        Begin
-                            Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
-                                "nterfaceMacro For=\"btnSave\" xmlns=\"http://schemas.microsoft.com/office/access"
-                                "services/2009/11/application\"><Statements><Action Name=\"OnError\"/><Action Nam"
-                                "e=\"SaveRecord\"/><ConditionalBlo"
-                        End
-                        Begin
-                            Comment ="_AXL:ck><If><Condition>[MacroError]&lt;&gt;0</Condition><Statements><Action Name"
-                                "=\"MessageBox\"><Argument Name=\"Message\">=[MacroError].[Description]</Argument"
-                                "></Action></Statements></If></ConditionalBlock></Statements></UserInterfaceMacro"
-                                ">"
-                        End
-                    End
 
-                    LayoutCachedLeft =4875
-                    LayoutCachedTop =2324
-                    LayoutCachedWidth =5805
-                    LayoutCachedHeight =2662
+                    LayoutCachedLeft =398
+                    LayoutCachedTop =3405
+                    LayoutCachedWidth =2386
+                    LayoutCachedHeight =3743
+                    RowStart =5
+                    RowEnd =5
+                    LayoutGroup =1
                     BackColor =14461583
                     BorderColor =14461583
                     HoverColor =15189940
                     PressedColor =9917743
                     HoverForeColor =4210752
                     PressedForeColor =4210752
+                    GroupTable =1
                     WebImagePaddingLeft =4
                     WebImagePaddingTop =4
                     WebImagePaddingRight =3
-                    WebImagePaddingBottom =3
+                    WebImagePaddingBottom =19
                     Overlaps =1
                 End
                 Begin ComboBox
                     OverlapFlags =85
+                    TextAlign =1
                     IMESentenceMode =3
                     ColumnCount =2
                     ListWidth =1440
-                    Left =6689
-                    Top =340
-                    Width =1814
-                    Height =833
+                    Left =2453
+                    Top =338
+                    Width =2265
+                    Height =406
                     TabIndex =5
                     BorderColor =10921638
                     ForeColor =3484194
@@ -363,6 +388,8 @@ Begin Form
                     BaseInfo ="\"SELECT [tblBewohner].[idBewohner], [tblBewohner].[calcBewohnerName] FROM tblBe"
                         "wohner; \";\"tblBewohner\";\"\";\"idBewohner\";\"calcBewohnerName\";\"PrimaryKey"
                         "\""
+                    GroupTable =1
+                    BottomPadding =150
                     GridlineColor =10921638
                     AfterUpdateEmMacro = Begin
                         Version =196611
@@ -386,39 +413,50 @@ Begin Form
                         End
                     End
 
-                    LayoutCachedLeft =6689
-                    LayoutCachedTop =340
-                    LayoutCachedWidth =8503
-                    LayoutCachedHeight =1173
+                    LayoutCachedLeft =2453
+                    LayoutCachedTop =338
+                    LayoutCachedWidth =4718
+                    LayoutCachedHeight =744
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
                     Begin
                         Begin Label
                             OverlapFlags =85
-                            Left =4988
-                            Top =340
-                            Width =1043
-                            Height =320
+                            TextAlign =1
+                            Left =398
+                            Top =338
+                            Width =1988
+                            Height =406
                             BorderColor =8355711
                             ForeColor =6710886
                             Name ="cmbName_Bezeichnungsfeld"
-                            Caption ="cmbName"
+                            Caption ="Bewohner"
+                            GroupTable =1
+                            BottomPadding =150
                             GridlineColor =10921638
-                            LayoutCachedLeft =4988
-                            LayoutCachedTop =340
-                            LayoutCachedWidth =6031
-                            LayoutCachedHeight =660
+                            LayoutCachedLeft =398
+                            LayoutCachedTop =338
+                            LayoutCachedWidth =2386
+                            LayoutCachedHeight =744
+                            LayoutGroup =1
+                            GroupTable =1
                         End
                     End
                 End
                 Begin CommandButton
                     OverlapFlags =85
-                    Left =566
-                    Top =3004
-                    Width =1058
+                    Left =398
+                    Top =3930
+                    Width =1988
                     Height =338
                     TabIndex =6
                     ForeColor =4210752
                     Name ="btnDuplicate"
                     Caption ="duplizieren"
+                    GroupTable =1
+                    BottomPadding =150
                     GridlineColor =10921638
                     OnClickEmMacro = Begin
                         Version =196611
@@ -493,21 +531,105 @@ Begin Form
                         End
                     End
 
-                    LayoutCachedLeft =566
-                    LayoutCachedTop =3004
-                    LayoutCachedWidth =1624
-                    LayoutCachedHeight =3342
+                    LayoutCachedLeft =398
+                    LayoutCachedTop =3930
+                    LayoutCachedWidth =2386
+                    LayoutCachedHeight =4268
+                    RowStart =6
+                    RowEnd =6
+                    LayoutGroup =1
                     BackColor =14461583
                     BorderColor =14461583
                     HoverColor =15189940
                     PressedColor =9917743
                     HoverForeColor =4210752
                     PressedForeColor =4210752
+                    GroupTable =1
                     WebImagePaddingLeft =4
                     WebImagePaddingTop =4
-                    WebImagePaddingRight =4
-                    WebImagePaddingBottom =3
+                    WebImagePaddingRight =3
+                    WebImagePaddingBottom =19
                     Overlaps =1
+                End
+                Begin EmptyCell
+                    Left =2453
+                    Top =2355
+                    Width =2265
+                    Height =338
+                    Name ="EmptyCell49"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2453
+                    LayoutCachedTop =2355
+                    LayoutCachedWidth =4718
+                    LayoutCachedHeight =2693
+                    RowStart =3
+                    RowEnd =3
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =2453
+                    Top =2880
+                    Width =2265
+                    Height =338
+                    Name ="EmptyCell51"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2453
+                    LayoutCachedTop =2880
+                    LayoutCachedWidth =4718
+                    LayoutCachedHeight =3218
+                    RowStart =4
+                    RowEnd =4
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =2453
+                    Top =3405
+                    Width =2265
+                    Height =338
+                    Name ="EmptyCell53"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2453
+                    LayoutCachedTop =3405
+                    LayoutCachedWidth =4718
+                    LayoutCachedHeight =3743
+                    RowStart =5
+                    RowEnd =5
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                End
+                Begin EmptyCell
+                    Left =2453
+                    Top =3930
+                    Width =2265
+                    Height =338
+                    Name ="EmptyCell55"
+                    GroupTable =1
+                    BottomPadding =150
+                    GridlineColor =10921638
+                    LayoutCachedLeft =2453
+                    LayoutCachedTop =3930
+                    LayoutCachedWidth =4718
+                    LayoutCachedHeight =4268
+                    RowStart =6
+                    RowEnd =6
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
                 End
             End
         End

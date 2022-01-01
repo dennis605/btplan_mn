@@ -10,7 +10,7 @@ Begin Form
     Width =12755
     DatasheetFontHeight =11
     ItemSuffix =22
-    Right =25080
+    Right =24825
     Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblBewohner"
@@ -164,14 +164,14 @@ Begin Form
             Begin
                 Begin Tab
                     OverlapFlags =85
-                    Top =737
+                    Top =735
                     Width =9015
-                    Height =6060
+                    Height =6062
                     Name ="RegisterStr14"
                     FontName ="Calibri Light"
                     GridlineColor =10921638
 
-                    LayoutCachedTop =737
+                    LayoutCachedTop =735
                     LayoutCachedWidth =9015
                     LayoutCachedHeight =6797
                     BackColor =14277081

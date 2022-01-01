@@ -10,8 +10,8 @@ Begin Form
     Width =11675
     DatasheetFontHeight =11
     ItemSuffix =52
-    Right =23273
-    Bottom =12120
+    Right =24825
+    Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="qry_alles"
     DatasheetFontName ="Calibri"
@@ -622,7 +622,6 @@ Begin Form
                     ForeColor =4210752
                     Name ="Befehl50"
                     Caption ="Bericht öffnen"
-                    OnClick ="[Event Procedure]"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =963

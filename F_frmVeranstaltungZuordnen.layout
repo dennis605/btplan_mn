@@ -10,7 +10,7 @@ Begin Form
     Width =16260
     DatasheetFontHeight =11
     ItemSuffix =100
-    Right =25080
+    Right =24825
     Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblVeranstaltung"

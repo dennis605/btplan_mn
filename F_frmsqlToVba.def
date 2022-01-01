@@ -6,18 +6,18 @@ Attribute VB_Exposed = False
 Option Compare Database
 
 Private Sub cmdSql2Vba_Click()
-    Dim strsql As String
+    Dim strSQL As String
     'Purpose:   Convert a SQL statement into a string to paste into VBA code.
     Const strcLineEnd = " "" & vbCrLf & _" & vbCrLf & """"
     
     If IsNull(Me.txtSql) Then
         Beep
     Else
-        strsql = Me.txtSql
-        strsql = Replace(strsql, """", """""")   'Double up any quotes.
-        strsql = Replace(strsql, vbCrLf, strcLineEnd)
-        strsql = "strSql = """ & strsql & """"
-        Me.txtVBA = strsql
+        strSQL = Me.txtSql
+        strSQL = Replace(strSQL, """", """""")   'Double up any quotes.
+        strSQL = Replace(strSQL, vbCrLf, strcLineEnd)
+        strSQL = "strSql = """ & strSQL & """"
+        Me.txtVBA = strSQL
         Me.txtVBA.SetFocus
         RunCommand acCmdCopy
     End If

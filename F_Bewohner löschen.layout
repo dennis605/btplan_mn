@@ -12,8 +12,8 @@ Begin Form
     Width =10780
     DatasheetFontHeight =11
     ItemSuffix =6
-    Right =23018
-    Bottom =12120
+    Right =24825
+    Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblPersonal"
     Caption ="Personal löschen"
