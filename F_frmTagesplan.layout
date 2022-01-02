@@ -14,7 +14,9 @@ Begin Form
     Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblTagesplan"
+    OnCurrent ="[Event Procedure]"
     DatasheetFontName ="Calibri"
+    OnLoad ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0

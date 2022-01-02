@@ -294,6 +294,7 @@ Begin Form
                     ForeColor =4210752
                     Name ="cmdSql2Vba"
                     Caption ="Befehl21"
+                    OnClick ="[Event Procedure]"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =2267

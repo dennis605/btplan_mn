@@ -6,41 +6,37 @@ Attribute VB_Exposed = False
 Option Compare Database
 Option Explicit
 
-'Dim newRecord As Boolean
-'newRecord = False
-
 Private Sub btnAnlegen_Click()
-DoCmd.GoToRecord , , acNewRec
-'newRecord = True
-    'DoCmd.RefreshRecord
+    DoCmd.GoToRecord , , acNewRec
+
 
 
 End Sub
 
 Private Sub btnLoeschen_Click()
-'DoCmd.RunCommand acCmdDeleteRecord
-
-If newRecord = True Then
-DoCmd.Restore
-Form.Undo
-
-'DoCmd.GoToRecord , , acNewRec
 
 
-    Exit Sub
-End If
+    If newRecord = True Then
+        DoCmd.Restore
+        Form.Undo
 
-If MsgBox("Person wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.", vbExclamation + vbYesNo, "Person löschen") = vbYes Then
-    DoCmd.SetWarnings False
+        'DoCmd.GoToRecord , , acNewRec
+
+
+        Exit Sub
+    End If
+
+    If MsgBox("Person wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.", vbExclamation + vbYesNo, "Person löschen") = vbYes Then
+        DoCmd.SetWarnings False
         DoCmd.RunCommand acCmdSelectRecord
         DoCmd.RunCommand acCmdDeleteRecord
         DoCmd.RefreshRecord
 
         
-    DoCmd.SetWarnings True
-Else 'user clicked no
-    MsgBox "Person wurde nicht gelöscht.", vbInformation
-End If
+        DoCmd.SetWarnings True
+    Else                                         'user clicked no
+        MsgBox "Person wurde nicht gelöscht.", vbInformation
+    End If
 
 
 
@@ -48,32 +44,50 @@ End Sub
 
 Private Sub btnSpeichern_Click()
 
-DoCmd.SetWarnings False
-DoCmd.RunCommand acCmdSaveRecord
-    'DoCmd.GoToRecord , , acNewRec
+    DoCmd.SetWarnings False
+
+    On Error GoTo ErrorHandler
+
+    DoCmd.RunCommand acCmdSaveRecord
+
     
     DoCmd.RefreshRecord
     
+    
+    
+ErrorHandler:
+    Select Case Err.Number
+
+    Case 3314                                    ' nicht alle Pflichtfelder ausgefüllt
+
+        MsgBox ("Bitte alle Pflichfelder ausfüllen")
+        Me.Undo
+
+    Case 3022
+
+        MsgBox ("Die Person existiert schon - bitte anderen Namen wählen")
+        Me.Undo
+        'Response = acDataErrContinue
+    End Select
+    
 End Sub
-
-
 
 ' 3022 nicht eindeutig
 ' 3314 nicht alle Felder ausgefüllt
 
 
-Private Sub Form_Error(DataErr As Integer, Response As Integer)
-
-Select Case DataErr
-
-Case 3314 ' nicht alle Pflichtfelder ausgefüllt
-
-MsgBox ("Bitte alle Pflichfelder ausfüllen")
-Me.Undo
-Response = acDataErrContinue
-End Select
-End Sub
-
-Private Sub txtPersonalVorname_GotFocus()
-DoCmd.SetWarnings False
-End Sub
+'Private Sub Form_Error(DataErr As Integer, Response As Integer)
+'
+'Select Case DataErr
+'
+'Case 3314 ' nicht alle Pflichtfelder ausgefüllt
+'
+'MsgBox ("Bitte alle Pflichfelder ausfüllen")
+'Me.Undo
+'Response = acDataErrContinue
+'End Select
+'End Sub
+'
+'Private Sub txtPersonalVorname_GotFocus()
+'DoCmd.SetWarnings False
+'End Sub

@@ -10,12 +10,11 @@ Begin Form
     Width =12582
     DatasheetFontHeight =11
     ItemSuffix =35
-    Right =17970
+    Right =25080
     Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblPersonal"
     DatasheetFontName ="Calibri"
-    OnError ="[Event Procedure]"
     AllowDatasheetView =0
     FilterOnLoad =0
     ShowPageMargins =0
@@ -359,7 +358,6 @@ Begin Form
                     ForeColor =4210752
                     Name ="txtPersonalVorname"
                     ControlSource ="txtPersonalVorname"
-                    OnGotFocus ="[Event Procedure]"
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
@@ -384,6 +382,7 @@ Begin Form
                             Top =810
                             Width =2106
                             Height =563
+                            FontWeight =700
                             LeftMargin =44
                             TopMargin =22
                             RightMargin =44
@@ -446,6 +445,7 @@ Begin Form
                             Top =1560
                             Width =2106
                             Height =563
+                            FontWeight =700
                             LeftMargin =44
                             TopMargin =22
                             RightMargin =44
@@ -561,6 +561,7 @@ Begin Form
                     WebImagePaddingTop =4
                     WebImagePaddingRight =3
                     WebImagePaddingBottom =3
+                    Overlaps =1
                 End
                 Begin CommandButton
                     OverlapFlags =85
@@ -594,6 +595,7 @@ Begin Form
                     WebImagePaddingTop =4
                     WebImagePaddingRight =3
                     WebImagePaddingBottom =3
+                    Overlaps =1
                 End
                 Begin CommandButton
                     OverlapFlags =85
@@ -627,6 +629,7 @@ Begin Form
                     WebImagePaddingTop =4
                     WebImagePaddingRight =3
                     WebImagePaddingBottom =3
+                    Overlaps =1
                 End
                 Begin ListBox
                     OverlapFlags =85

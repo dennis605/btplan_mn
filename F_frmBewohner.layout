@@ -10,7 +10,7 @@ Begin Form
     Width =11905
     DatasheetFontHeight =11
     ItemSuffix =122
-    Right =25080
+    Right =24825
     Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblBewohner"
@@ -273,6 +273,7 @@ Begin Form
                     ForeColor =4210752
                     Name ="btnCopy"
                     Caption ="Datensatz duplizieren"
+                    OnClick ="[Event Procedure]"
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638

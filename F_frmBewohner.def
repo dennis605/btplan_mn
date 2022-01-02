@@ -104,16 +104,15 @@ Public Function CheckIfDuplicate(Vorname As String, Nachname As String, table As
     
 End Function
 
-
 Private Sub Form_BeforeUpdate(Cancel As Integer)
 
-Dim vname As String
+    Dim vname As String
     Dim nname As String
     Dim tabelle As String
 
-    vname = Me.txtBewohnerVorname ' aus Form
-    nname = Me.txtBewohnerNachname ' aus Form
-    tabelle = "tblBewohner" ' manuell angeben
+    vname = Me.txtBewohnerVorname                ' aus Form
+    nname = Me.txtBewohnerNachname               ' aus Form
+    tabelle = "tblBewohner"                      ' manuell angeben
 
     Dim duplicate As Boolean
     duplicate = False

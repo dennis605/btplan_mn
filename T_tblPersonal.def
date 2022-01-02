@@ -61,7 +61,7 @@
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
       <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value="Bitte gültigen Wert für Vorname auswählen"/>
+      <ValidationText name="ValidationText" type="12" value=""/>
       <Required name="Required" type="1" value="True"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
