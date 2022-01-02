@@ -7,7 +7,7 @@
 [dateVeranstaltungDatum] DATETIME,
 [dateVeranstaltungAnfang] DATETIME,
 [dateVeranstaltungEnde] DATETIME,
-[txtVeranstaltungOrt] TEXT (255),
+[selectVeranstaltungOrt] TEXT (255),
 [txtVeranstaltungBemerkung] MEMO);</SQL>
   <Attributes value="0">
     <dbHiddenObject value="False"/>
@@ -63,8 +63,8 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültigen Veranstaltungsnamen angeben"/>
       <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
@@ -98,8 +98,8 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Date()"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültige Uhrzeit angeben"/>
       <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
@@ -132,8 +132,8 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte Start für Veranstaltung in Form hh:mm angeben"/>
       <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
@@ -167,8 +167,8 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültige Uhrzeit in Form hh:mm für Ende angeben"/>
       <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
@@ -186,16 +186,17 @@
       <ShowDatePicker name="ShowDatePicker" type="3" value="1"/>
       <ResultType name="ResultType" type="2" value="0"/>
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
+      <InputMask name="InputMask" type="10" value="00:00;0;_"/>
     </Field_4>
-    <Field_5 name="txtVeranstaltungOrt">
+    <Field_5 name="selectVeranstaltungOrt">
       <Value name="Value" type="10"/>
       <Attributes name="Attributes" type="4" value="2"/>
       <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
       <Type name="Type" type="3" value="10"/>
-      <Name name="Name" type="12" value="txtVeranstaltungOrt"/>
+      <Name name="Name" type="12" value="selectVeranstaltungOrt"/>
       <OrdinalPosition name="OrdinalPosition" type="3" value="5"/>
       <Size name="Size" type="4" value="255"/>
-      <SourceField name="SourceField" type="12" value="txtVeranstaltungOrt"/>
+      <SourceField name="SourceField" type="12" value="selectVeranstaltungOrt"/>
       <SourceTable name="SourceTable" type="12" value="tblVeranstaltung"/>
       <ValidateOnSet name="ValidateOnSet" type="1"/>
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
@@ -213,7 +214,7 @@
       <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
       <ColumnOrder name="ColumnOrder" type="3" value="0"/>
       <ColumnHidden name="ColumnHidden" type="1" value="False"/>
-      <DisplayControl name="DisplayControl" type="3" value="109"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
       <IMEMode name="IMEMode" type="2" value="0"/>
       <IMESentenceMode name="IMESentenceMode" type="2" value="3"/>
       <UnicodeCompression name="UnicodeCompression" type="1" value="True"/>
@@ -221,6 +222,17 @@
       <AggregateType name="AggregateType" type="4" value="-1"/>
       <ResultType name="ResultType" type="2" value="0"/>
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
+      <RowSourceType name="RowSourceType" type="10" value="Value List"/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="1"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="1440"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="1440Twip"/>
+      <LimitToList name="LimitToList" type="1" value="False"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
     </Field_5>
     <Field_6 name="txtVeranstaltungBemerkung">
       <Value name="Value" type="12"/>
