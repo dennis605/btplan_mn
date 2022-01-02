@@ -73,7 +73,7 @@ Private Sub KontrollkaestchenAktivieren()
         
         
     Next objListitem
-    If Not Me.NewRecord Then
+    If Not Me.newRecord Then
         Dim SQL As String
         Set rst = db.OpenRecordset("SELECT * FROM qryPersonal_aktiv WHERE frkVeranstaltung = " & Me!idVeranstaltung, dbOpenDynaset)
         Do While Not rst.EOF
@@ -101,7 +101,7 @@ Private Sub KontrollkaestchenAktivieren2()
         
         
     Next objListitem2
-    If Not Me.NewRecord Then
+    If Not Me.newRecord Then
         Dim SQL As String
         Set rst = db.OpenRecordset("SELECT * FROM qryBewohner_aktiv WHERE frkVeranstaltung = " & Me!idVeranstaltung, dbOpenDynaset)
         Do While Not rst.EOF

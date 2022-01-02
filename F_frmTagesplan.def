@@ -47,7 +47,7 @@ Private Sub KontrollkaestchenAktivieren()
         
         
     Next objListitem
-    If Not Me.NewRecord Then
+    If Not Me.newRecord Then
         Dim SQL As String
         Set rst = db.OpenRecordset("SELECT * FROM qryVeranstaltung_aktiv WHERE frkTagesplan = " & Me!idTagesplan, dbOpenDynaset)
         Do While Not rst.EOF

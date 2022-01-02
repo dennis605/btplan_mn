@@ -3,8 +3,8 @@
   <Properties/>
   <SQL>CREATE TABLE [tblPersonal] (
 [idPersonal] AUTOINCREMENT,
-[txtPersonalVorname] TEXT (255),
-[txtPersonalNachname] TEXT (255),
+[txtPersonalVorname] TEXT (255) NOT NULL,
+[txtPersonalNachname] TEXT (255) NOT NULL,
 [calcPersonalName] TEXT (243));</SQL>
   <Attributes value="0">
     <dbHiddenObject value="False"/>
@@ -61,9 +61,9 @@
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
       <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
-      <Required name="Required" type="1" value="False"/>
-      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültigen Wert für Vorname auswählen"/>
+      <Required name="Required" type="1" value="True"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>
       <FieldSize name="FieldSize" type="4"/>
@@ -97,8 +97,8 @@
       <DefaultValue name="DefaultValue" type="12" value=""/>
       <ValidationRule name="ValidationRule" type="12" value=""/>
       <ValidationText name="ValidationText" type="12" value=""/>
-      <Required name="Required" type="1" value="False"/>
-      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <Required name="Required" type="1" value="True"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>
       <FieldSize name="FieldSize" type="4"/>
@@ -162,5 +162,17 @@
         <FieldNames value="+idPersonal"/>
       </Fields>
     </Index_0>
+    <Index_1 name="uniqueKey">
+      <Name value="uniqueKey"/>
+      <Unique value="true"/>
+      <Clustered value="false"/>
+      <Primary value="false"/>
+      <Foreign value="false"/>
+      <Required value="false"/>
+      <IgnoreNulls value="false"/>
+      <Fields>
+        <FieldNames value="+txtPersonalVorname;+txtPersonalNachname"/>
+      </Fields>
+    </Index_1>
   </Indexes>
 </TableDef>
