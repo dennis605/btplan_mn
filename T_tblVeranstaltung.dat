@@ -7,8 +7,9 @@
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="16.12.2026"/>
       <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="12:47:00"/>
       <field_4 name="dateVeranstaltungEnde" binary="false" null="false" value="23:34:00"/>
-      <field_5 name="selectVeranstaltungOrt" binary="false" null="false">test</field_5>
+      <field_5 name="selectVeranstaltungOrt" binary="false" null="false" value="2"/>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">dfjnjtngkwrjt</field_6>
+      <field_7 name="Ort" binary="false" null="false" value="2"/>
     </Row_1>
     <Row_2>
       <field_0 name="idVeranstaltung" binary="false" null="false" value="3"/>
@@ -16,8 +17,9 @@
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="12.12.2021"/>
       <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="15:45:00"/>
       <field_4 name="dateVeranstaltungEnde" binary="false" null="true"/>
-      <field_5 name="selectVeranstaltungOrt" binary="false" null="false">veranort3</field_5>
+      <field_5 name="selectVeranstaltungOrt" binary="false" null="true"/>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">jekjgwtkjrgnkwrtbfjvbsjdfd</field_6>
+      <field_7 name="Ort" binary="false" null="true"/>
     </Row_2>
     <Row_3>
       <field_0 name="idVeranstaltung" binary="false" null="false" value="4"/>
@@ -25,8 +27,9 @@
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="26.12.2021"/>
       <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="12:34:00"/>
       <field_4 name="dateVeranstaltungEnde" binary="false" null="true"/>
-      <field_5 name="selectVeranstaltungOrt" binary="false" null="false">ort4</field_5>
+      <field_5 name="selectVeranstaltungOrt" binary="false" null="true"/>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">hefuehiug</field_6>
+      <field_7 name="Ort" binary="false" null="true"/>
     </Row_3>
     <Row_4>
       <field_0 name="idVeranstaltung" binary="false" null="false" value="5"/>
@@ -34,8 +37,9 @@
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="26.12.2021"/>
       <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="12:22:00"/>
       <field_4 name="dateVeranstaltungEnde" binary="false" null="false" value="23:34:00"/>
-      <field_5 name="selectVeranstaltungOrt" binary="false" null="false">Wohnzimmert</field_5>
+      <field_5 name="selectVeranstaltungOrt" binary="false" null="true"/>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">Testveranstaltung</field_6>
+      <field_7 name="Ort" binary="false" null="true"/>
     </Row_4>
     <Row_5>
       <field_0 name="idVeranstaltung" binary="false" null="false" value="22"/>
@@ -43,8 +47,9 @@
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="25.12.2021"/>
       <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="10:00:00"/>
       <field_4 name="dateVeranstaltungEnde" binary="false" null="false" value="12:30:00"/>
-      <field_5 name="selectVeranstaltungOrt" binary="false" null="false">Nirgends</field_5>
+      <field_5 name="selectVeranstaltungOrt" binary="false" null="true"/>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="false">jfkjdhekjrghqekjgrhekr</field_6>
+      <field_7 name="Ort" binary="false" null="true"/>
     </Row_5>
     <Row_6>
       <field_0 name="idVeranstaltung" binary="false" null="false" value="23"/>
@@ -52,8 +57,9 @@
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="24.12.2021"/>
       <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="10:40:00"/>
       <field_4 name="dateVeranstaltungEnde" binary="false" null="false" value="23:45:00"/>
-      <field_5 name="selectVeranstaltungOrt" binary="false" null="false">ergqe</field_5>
+      <field_5 name="selectVeranstaltungOrt" binary="false" null="true"/>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="true"/>
+      <field_7 name="Ort" binary="false" null="true"/>
     </Row_6>
     <Row_7>
       <field_0 name="idVeranstaltung" binary="false" null="false" value="24"/>
@@ -61,8 +67,9 @@
       <field_2 name="dateVeranstaltungDatum" binary="false" null="false" value="24.12.2021"/>
       <field_3 name="dateVeranstaltungAnfang" binary="false" null="false" value="12:45:00"/>
       <field_4 name="dateVeranstaltungEnde" binary="false" null="false" value="13:45:00"/>
-      <field_5 name="selectVeranstaltungOrt" binary="false" null="false">egrege</field_5>
+      <field_5 name="selectVeranstaltungOrt" binary="false" null="true"/>
       <field_6 name="txtVeranstaltungBemerkung" binary="false" null="true"/>
+      <field_7 name="Ort" binary="false" null="true"/>
     </Row_7>
   </Rows>
 </TableData>
