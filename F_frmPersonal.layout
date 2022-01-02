@@ -10,7 +10,7 @@ Begin Form
     Width =12582
     DatasheetFontHeight =11
     ItemSuffix =35
-    Right =25080
+    Right =17970
     Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblPersonal"
@@ -642,7 +642,7 @@ Begin Form
                     TabIndex =6
                     ForeColor =4210752
                     BorderColor =10921638
-                    Name ="Liste22"
+                    Name ="lstPersonal"
                     RowSourceType ="Table/Query"
                     RowSource ="SELECT [tblPersonal].[idPersonal], [tblPersonal].[calcPersonalName] FROM tblPers"
                         "onal; "
@@ -660,13 +660,13 @@ Begin Form
                         End
                         Begin
                             Comment ="_AXL:<?xml version=\"1.0\" encoding=\"UTF-16\" standalone=\"no\"?>\015\012<UserI"
-                                "nterfaceMacro For=\"Liste22\" xmlns=\"http://schemas.microsoft.com/office/access"
-                                "services/2009/11/application\"><Statements><Action Name=\"SearchForRecord\"><Arg"
-                                "ument Name=\"WhereCondition\">=\"["
+                                "nterfaceMacro For=\"lstPersonal\" xmlns=\"http://schemas.microsoft.com/office/ac"
+                                "cessservices/2009/11/application\"><Statements><Action Name=\"SearchForRecord\">"
+                                "<Argument Name=\"WhereCondition\""
                         End
                         Begin
-                            Comment ="_AXL:idPersonal] = \" &amp; Str(Nz(Screen.ActiveControl,0))</Argument></Action><"
-                                "/Statements></UserInterfaceMacro>"
+                            Comment ="_AXL:>=\"[idPersonal] = \" &amp; Str(Nz(Screen.ActiveControl,0))</Argument></Act"
+                                "ion></Statements></UserInterfaceMacro>"
                         End
                     End
 

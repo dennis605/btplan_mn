@@ -60,10 +60,10 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültigen Vornamen angeben"/>
       <Required name="Required" type="1" value="False"/>
-      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>
       <FieldSize name="FieldSize" type="4"/>
@@ -95,10 +95,10 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültigen Nachnamen angeben"/>
       <Required name="Required" type="1" value="False"/>
-      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>
       <FieldSize name="FieldSize" type="4"/>
@@ -140,7 +140,7 @@
       <OriginalValue name="OriginalValue" type="10"/>
       <VisibleValue name="VisibleValue" type="10"/>
       <ResultType name="ResultType" type="2" value="10"/>
-      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="3698"/>
       <ColumnOrder name="ColumnOrder" type="3" value="0"/>
       <ColumnHidden name="ColumnHidden" type="1" value="False"/>
       <DisplayControl name="DisplayControl" type="3" value="109"/>
@@ -162,5 +162,17 @@
         <FieldNames value="+idBewohner"/>
       </Fields>
     </Index_0>
+    <Index_1 name="uniqueKey">
+      <Name value="uniqueKey"/>
+      <Unique value="true"/>
+      <Clustered value="false"/>
+      <Primary value="false"/>
+      <Foreign value="false"/>
+      <Required value="false"/>
+      <IgnoreNulls value="false"/>
+      <Fields>
+        <FieldNames value="+txtBewohnerVorname;+txtBewohnerNachname"/>
+      </Fields>
+    </Index_1>
   </Indexes>
 </TableDef>

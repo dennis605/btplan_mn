@@ -3,8 +3,8 @@
   <Properties/>
   <SQL>CREATE TABLE [tblPersonal] (
 [idPersonal] AUTOINCREMENT,
-[txtPersonalVorname] TEXT (255) NOT NULL,
-[txtPersonalNachname] TEXT (255) NOT NULL,
+[txtPersonalVorname] TEXT (255),
+[txtPersonalNachname] TEXT (255),
 [calcPersonalName] TEXT (243));</SQL>
   <Attributes value="0">
     <dbHiddenObject value="False"/>
@@ -60,9 +60,9 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
-      <Required name="Required" type="1" value="True"/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültigen Vornamen angeben"/>
+      <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>
@@ -80,6 +80,7 @@
       <AggregateType name="AggregateType" type="4" value="-1"/>
       <ResultType name="ResultType" type="2" value="0"/>
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
+      <Caption name="Caption" type="12" value="Vorname"/>
     </Field_1>
     <Field_2 name="txtPersonalNachname">
       <Value name="Value" type="10"/>
@@ -95,9 +96,9 @@
       <DataUpdatable name="DataUpdatable" type="1" value="False"/>
       <ForeignName name="ForeignName" type="12"/>
       <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value=""/>
-      <ValidationText name="ValidationText" type="12" value=""/>
-      <Required name="Required" type="1" value="True"/>
+      <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
+      <ValidationText name="ValidationText" type="12" value="Bitte gültigen Nachnamen angeben"/>
+      <Required name="Required" type="1" value="False"/>
       <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>

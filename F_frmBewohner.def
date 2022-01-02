@@ -4,124 +4,90 @@ Attribute VB_Creatable = True
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Compare Database
+Option Explicit
 
-Private Sub btnCopy_Click()
-    'All the code to validate user input. Prompt user to make sure they want to submit form, etc.
+Private Sub btnAnlegen_Click()
+    DoCmd.GoToRecord , , acNewRec
 
-    
-    Const SQL As String = _
-    "INSERT INTO tblBewohner " & _
-    "( txtBewohnerVorname, txtBewohnerNachname) " & _
-    "VALUES " & _
-    "( p0, p1)"
-
-    With CurrentDb.CreateQueryDef("", SQL)
-        .Parameters(0) = txtBewohnerVorname
-        .Parameters(1) = txtBewohnerNachname
-        .Execute dbFailOnError
-        .Close
-    End With
-    
-    
-    
-    
-    
-    
-    '   Dim string1 As String
-    '   Dim string2 As String
-    '   Dim string3 As String
-
-    '  string1 = " ""me.txtBewohnerVorname "","
-    '  string2 = " me.txtBewohnerNachname """
-
-    '  string3 = "INSERT INTO tblBewohner (txtBewohnerVorname, txtBewohnerNachname) VALUES "
-    Dim strSQL As String
-
-
-    strSQL = "INSERT INTO tblBewohner (txtBewohnerVorname, txtBewohnerNachname) VALUES (me.txtBewohnerVorname ',' me.txtBewohnerNachname)"
-
-
-    'sql = "INSERT INTO tblBewohner (txtBewohnerVorname, txtBewohnerNachname) VALUES (""'" & orderStatus & "'" ,'" & orderStatus & "'"")"
-    
-    
-    
-    'DoCmd.RunSQL SQL
-    
-End Sub
-
-Private Sub btnSave_Click()
-
-    
-
-
-    'Me.hiddenVorname = Me.txtBewohnerVorname
-    'Me.hiddenNachname = Me.txtBewohnerNachname
 
 
 End Sub
 
-Public Function CheckIfDuplicate(Vorname As String, Nachname As String, table As String) As Boolean
+Private Sub btnLoeschen_Click()
 
-    Dim rst As DAO.Recordset
-    Dim strSQLv As String
-    
-    ' Alle Eintage Laden bei welchen Vorname ( = Vorname (als Parameter) und Vorname = txtBewohnerVorname (aus dem Form)
-    
-    strSQLv = "SELECT txtBewohnerNachname FROM " & table & "  WHERE txtBewohnerVorname = """ & txtBewohnerVorname & """"
-    '& txtBewohnerNachname = """ & Nachname & """""
-    'Debug.Print strSQLv
-    
-    'DoCmd.RunSQL strSQLv
-    
-    
-    Set rst = CurrentDb.OpenRecordset(strSQLv)
-    
-    'Debug.Print rst
-    
-    Do While Not rst.EOF
-        'Debug.Print rst!txtBewohnerNachname
+
+    If newRecord = True Then
+        DoCmd.Restore
+        Form.Undo
+
+        'DoCmd.GoToRecord , , acNewRec
+
+
+        Exit Sub
+    End If
+
+    If MsgBox("Person wirklich löschen? Dieser Vorgang kann nicht rückgängig gemacht werden.", vbExclamation + vbYesNo, "Person löschen") = vbYes Then
+        DoCmd.SetWarnings False
+        DoCmd.RunCommand acCmdSelectRecord
+        DoCmd.RunCommand acCmdDeleteRecord
+        DoCmd.RefreshRecord
+
         
-        ' Wenn in gefundener Liste Nachname = Nachname aus Form auf letzten Eintrag setzen und duplicate auf True setzen
-    
-        If rst!txtBewohnerNachname = Nachname Then
-    
-            'Debug.Print ("Eintrag doppelt")
-            CheckIfDuplicate = True
-            rst.MoveLast
-            rst.MoveNext
-    
-        Else
-            rst.MoveNext
-    
-        End If
-       
-    Loop
-    
-    
-    
-    
-    
-    
-End Function
-
-Private Sub Form_BeforeUpdate(Cancel As Integer)
-
-    Dim vname As String
-    Dim nname As String
-    Dim tabelle As String
-
-    vname = Me.txtBewohnerVorname                ' aus Form
-    nname = Me.txtBewohnerNachname               ' aus Form
-    tabelle = "tblBewohner"                      ' manuell angeben
-
-    Dim duplicate As Boolean
-    duplicate = False
+        DoCmd.SetWarnings True
+    Else                                         'user clicked no
+        MsgBox "Person wurde nicht gelöscht.", vbInformation
+    End If
 
 
-    duplicate = CheckIfDuplicate(vname, nname, tabelle)
-    
-    If duplicate = True Then MsgBox ("Doppelter Eintrag - bitte andere Person anlegen")
-    
-    Debug.Print duplicate
 
 End Sub
+
+Private Sub btnSpeichern_Click()
+
+    DoCmd.SetWarnings False
+
+    On Error GoTo ErrorHandler
+
+    DoCmd.RunCommand acCmdSaveRecord
+
+    
+    DoCmd.RefreshRecord
+    
+    
+    
+ErrorHandler:
+    Select Case Err.Number
+
+    Case 3314                                    ' nicht alle Pflichtfelder ausgefüllt
+
+        MsgBox ("Bitte alle Pflichfelder ausfüllen")
+        Me.Undo
+
+    Case 3022
+
+        MsgBox ("Die Person existiert schon - bitte anderen Namen wählen")
+        Me.Undo
+        'Response = acDataErrContinue
+    End Select
+    
+End Sub
+
+' 3022 nicht eindeutig
+' 3314 nicht alle Felder ausgefüllt
+
+
+'Private Sub Form_Error(DataErr As Integer, Response As Integer)
+'
+'Select Case DataErr
+'
+'Case 3314 ' nicht alle Pflichtfelder ausgefüllt
+'
+'MsgBox ("Bitte alle Pflichfelder ausfüllen")
+'Me.Undo
+'Response = acDataErrContinue
+'End Select
+'End Sub
+'
+'Private Sub txtBewohnerVorname_GotFocus()
+'DoCmd.SetWarnings False
+'End Sub
