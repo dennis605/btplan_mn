@@ -11,7 +11,7 @@ Begin Form
     DatasheetFontHeight =11
     ItemSuffix =31
     Right =25080
-    Bottom =12120
+    Bottom =11685
     DatasheetGridlinesColor =15132391
     RecordSource ="tblVeranstaltung"
     DatasheetFontName ="Calibri"
@@ -758,9 +758,9 @@ Begin Form
                     RowSource ="SELECT tblVeranstaltung.idVeranstaltung, tblVeranstaltung.txtVeranstaltungName A"
                         "S Veranstaltung, tblVeranstaltung.dateVeranstaltungDatum AS Datum, tblVeranstalt"
                         "ung.dateVeranstaltungAnfang AS Beginn, tblVeranstaltung.dateVeranstaltungEnde AS"
-                        " Ende, tblOrt.NameOrt AS Ort, tblOrt.ID FROM tblOrt LEFT JOIN tblVeranstaltung O"
-                        "N tblOrt.ID = tblVeranstaltung.Ort ORDER BY tblVeranstaltung.txtVeranstaltungNam"
-                        "e; "
+                        " Ende, tblOrt.NameOrt AS Ort, tblOrt.ID FROM tblOrt INNER JOIN tblVeranstaltung "
+                        "ON tblOrt.ID = tblVeranstaltung.Ort ORDER BY tblVeranstaltung.txtVeranstaltungNa"
+                        "me; "
                     ColumnWidths ="0;2009;1442;1442;1442;1442"
                     GridlineColor =10921638
                     AfterUpdateEmMacro = Begin

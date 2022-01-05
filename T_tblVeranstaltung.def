@@ -67,7 +67,7 @@
       <ValidationRule name="ValidationRule" type="12" value="Not Is Null"/>
       <ValidationText name="ValidationText" type="12" value="Bitte gültigen Veranstaltungsnamen angeben"/>
       <Required name="Required" type="1" value="False"/>
-      <AllowZeroLength name="AllowZeroLength" type="1" value="True"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
       <AppendOnly name="AppendOnly" type="1" value="False"/>
       <Expression name="Expression" type="12" value=""/>
       <FieldSize name="FieldSize" type="4"/>
