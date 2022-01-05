@@ -7,9 +7,9 @@
 [dateVeranstaltungDatum] DATETIME,
 [dateVeranstaltungAnfang] DATETIME,
 [dateVeranstaltungEnde] DATETIME,
-[selectVeranstaltungOrt] LONG,
 [txtVeranstaltungBemerkung] MEMO,
-[Ort] LONG);</SQL>
+[Ort] LONG,
+[Veranstaltungsort] LONG);</SQL>
   <Attributes value="0">
     <dbHiddenObject value="False"/>
     <dbAttachExclusive value="False"/>
@@ -189,58 +189,13 @@
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
       <InputMask name="InputMask" type="10" value="00:00;0;_"/>
     </Field_4>
-    <Field_5 name="selectVeranstaltungOrt">
-      <Value name="Value" type="4"/>
-      <Attributes name="Attributes" type="4" value="1"/>
-      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
-      <Type name="Type" type="3" value="4"/>
-      <Name name="Name" type="12" value="selectVeranstaltungOrt"/>
-      <OrdinalPosition name="OrdinalPosition" type="3" value="5"/>
-      <Size name="Size" type="4" value="4"/>
-      <SourceField name="SourceField" type="12" value="selectVeranstaltungOrt"/>
-      <SourceTable name="SourceTable" type="12" value="tblVeranstaltung"/>
-      <ValidateOnSet name="ValidateOnSet" type="1"/>
-      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
-      <ForeignName name="ForeignName" type="12"/>
-      <DefaultValue name="DefaultValue" type="12" value=""/>
-      <ValidationRule name="ValidationRule" type="12" value="Is Not Null"/>
-      <ValidationText name="ValidationText" type="12" value="Bitte Ort für Beschäftigung auswählen"/>
-      <Required name="Required" type="1" value="False"/>
-      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
-      <AppendOnly name="AppendOnly" type="1" value="False"/>
-      <Expression name="Expression" type="12" value=""/>
-      <FieldSize name="FieldSize" type="4"/>
-      <OriginalValue name="OriginalValue" type="4"/>
-      <VisibleValue name="VisibleValue" type="4"/>
-      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
-      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
-      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
-      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
-      <DisplayControl name="DisplayControl" type="3" value="111"/>
-      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
-      <RowSource name="RowSource" type="12" value="SELECT [tblOrt].[ID], [tblOrt].[NameOrt] FROM tblOrt; "/>
-      <BoundColumn name="BoundColumn" type="3" value="1"/>
-      <ColumnCount name="ColumnCount" type="3" value="2"/>
-      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
-      <ColumnWidths name="ColumnWidths" type="10" value="0;1440"/>
-      <ListRows name="ListRows" type="3" value="16"/>
-      <ListWidth name="ListWidth" type="10" value="1440Twip"/>
-      <LimitToList name="LimitToList" type="1" value="True"/>
-      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
-      <TextAlign name="TextAlign" type="2" value="0"/>
-      <AllowValueListEdits name="AllowValueListEdits" type="1" value="False"/>
-      <AggregateType name="AggregateType" type="4" value="-1"/>
-      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
-      <ResultType name="ResultType" type="2" value="0"/>
-      <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
-    </Field_5>
-    <Field_6 name="txtVeranstaltungBemerkung">
+    <Field_5 name="txtVeranstaltungBemerkung">
       <Value name="Value" type="12"/>
       <Attributes name="Attributes" type="4" value="2"/>
       <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
       <Type name="Type" type="3" value="12"/>
       <Name name="Name" type="12" value="txtVeranstaltungBemerkung"/>
-      <OrdinalPosition name="OrdinalPosition" type="3" value="6"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="5"/>
       <Size name="Size" type="4" value="0"/>
       <SourceField name="SourceField" type="12" value="txtVeranstaltungBemerkung"/>
       <SourceTable name="SourceTable" type="12" value="tblVeranstaltung"/>
@@ -268,14 +223,14 @@
       <AggregateType name="AggregateType" type="4" value="-1"/>
       <ResultType name="ResultType" type="2" value="0"/>
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
-    </Field_6>
-    <Field_7 name="Ort">
+    </Field_5>
+    <Field_6 name="Ort">
       <Value name="Value" type="4"/>
       <Attributes name="Attributes" type="4" value="1"/>
       <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
       <Type name="Type" type="3" value="4"/>
       <Name name="Name" type="12" value="Ort"/>
-      <OrdinalPosition name="OrdinalPosition" type="3" value="7"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="6"/>
       <Size name="Size" type="4" value="4"/>
       <SourceField name="SourceField" type="12" value="Ort"/>
       <SourceTable name="SourceTable" type="12" value="tblVeranstaltung"/>
@@ -311,6 +266,51 @@
       <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
       <AggregateType name="AggregateType" type="4" value="-1"/>
       <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="False"/>
+      <ResultType name="ResultType" type="2" value="0"/>
+      <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
+    </Field_6>
+    <Field_7 name="Veranstaltungsort">
+      <Value name="Value" type="4"/>
+      <Attributes name="Attributes" type="4" value="1"/>
+      <CollatingOrder name="CollatingOrder" type="3" value="1033"/>
+      <Type name="Type" type="3" value="4"/>
+      <Name name="Name" type="12" value="Veranstaltungsort"/>
+      <OrdinalPosition name="OrdinalPosition" type="3" value="7"/>
+      <Size name="Size" type="4" value="4"/>
+      <SourceField name="SourceField" type="12" value="Veranstaltungsort"/>
+      <SourceTable name="SourceTable" type="12" value="tblVeranstaltung"/>
+      <ValidateOnSet name="ValidateOnSet" type="1"/>
+      <DataUpdatable name="DataUpdatable" type="1" value="False"/>
+      <ForeignName name="ForeignName" type="12"/>
+      <DefaultValue name="DefaultValue" type="12" value=""/>
+      <ValidationRule name="ValidationRule" type="12" value=""/>
+      <ValidationText name="ValidationText" type="12" value=""/>
+      <Required name="Required" type="1" value="False"/>
+      <AllowZeroLength name="AllowZeroLength" type="1" value="False"/>
+      <AppendOnly name="AppendOnly" type="1" value="False"/>
+      <Expression name="Expression" type="12" value=""/>
+      <FieldSize name="FieldSize" type="4"/>
+      <OriginalValue name="OriginalValue" type="4"/>
+      <VisibleValue name="VisibleValue" type="4"/>
+      <ColumnWidth name="ColumnWidth" type="3" value="-1"/>
+      <ColumnOrder name="ColumnOrder" type="3" value="0"/>
+      <ColumnHidden name="ColumnHidden" type="1" value="False"/>
+      <DecimalPlaces name="DecimalPlaces" type="2" value="255"/>
+      <DisplayControl name="DisplayControl" type="3" value="111"/>
+      <RowSourceType name="RowSourceType" type="10" value="Table/Query"/>
+      <RowSource name="RowSource" type="12" value="SELECT [tblOrt].[ID], [tblOrt].[NameOrt] FROM tblOrt; "/>
+      <BoundColumn name="BoundColumn" type="3" value="1"/>
+      <ColumnCount name="ColumnCount" type="3" value="2"/>
+      <ColumnHeads name="ColumnHeads" type="1" value="False"/>
+      <ColumnWidths name="ColumnWidths" type="10" value="0;1440"/>
+      <ListRows name="ListRows" type="3" value="16"/>
+      <ListWidth name="ListWidth" type="10" value="1440Twip"/>
+      <LimitToList name="LimitToList" type="1" value="True"/>
+      <AllowMultipleValues name="AllowMultipleValues" type="1" value="False"/>
+      <TextAlign name="TextAlign" type="2" value="0"/>
+      <AllowValueListEdits name="AllowValueListEdits" type="1" value="True"/>
+      <AggregateType name="AggregateType" type="4" value="-1"/>
+      <ShowOnlyRowSourceValues name="ShowOnlyRowSourceValues" type="1" value="True"/>
       <ResultType name="ResultType" type="2" value="0"/>
       <CurrencyLCID name="CurrencyLCID" type="4" value="0"/>
     </Field_7>

@@ -9,5 +9,9 @@
       <field_0 name="ID" binary="false" null="false" value="2"/>
       <field_1 name="NameOrt" binary="false" null="false">Besch/#228/ftigungstherapie</field_1>
     </Row_2>
+    <Row_3>
+      <field_0 name="ID" binary="false" null="false" value="3"/>
+      <field_1 name="NameOrt" binary="false" null="false">Wohnbereich</field_1>
+    </Row_3>
   </Rows>
 </TableData>

@@ -10,7 +10,7 @@ Begin Form
     Width =17007
     DatasheetFontHeight =11
     ItemSuffix =31
-    Right =17970
+    Right =25080
     Bottom =12120
     DatasheetGridlinesColor =15132391
     RecordSource ="tblVeranstaltung"
@@ -621,13 +621,13 @@ Begin Form
                     ForeColor =3484194
                     ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
                     Name ="selectVeranstaltungOrt"
-                    ControlSource ="selectVeranstaltungOrt"
+                    ControlSource ="Ort"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT tblOrt.ID, tblOrt.NameOrt FROM tblOrt INNER JOIN tblVeranstaltung ON tblO"
-                        "rt.ID = tblVeranstaltung.Ort; "
+                    RowSource ="SELECT DISTINCT tblOrt.ID, tblOrt.NameOrt FROM tblOrt INNER JOIN tblVeranstaltun"
+                        "g ON tblOrt.ID = tblVeranstaltung.Ort; "
                     ColumnWidths ="0;1440"
-                    BaseInfo ="\"SELECT tblOrt.ID, tblOrt.NameOrt FROM tblOrt INNER JOIN tblVeranstaltung ON tb"
-                        "lOrt.ID = tblVeranstaltung.Ort; \";\"tblOrt\";\"tblVeranstaltung\";\"\""
+                    BaseInfo ="\"SELECT DISTINCT tblOrt.ID, tblOrt.NameOrt FROM tblOrt INNER JOIN tblVeranstalt"
+                        "ung ON tblOrt.ID = tblVeranstaltung.Ort; \";\"tblOrt\";\"tblVeranstaltung\";\"\""
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638

@@ -3,9 +3,9 @@
   <Name value="tblOrttblVeranstaltung"/>
   <Table value="tblOrt"/>
   <ForeignTable value="tblVeranstaltung"/>
-  <Attributes value="4096"/>
+  <Attributes value="0"/>
   <PartialReplica value="false"/>
   <Fields>
-    <Field_0 name="ID" foreignname="selectVeranstaltungOrt"/>
+    <Field_0 name="ID" foreignname="Veranstaltungsort"/>
   </Fields>
 </Relation>
