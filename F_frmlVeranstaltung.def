@@ -7,11 +7,11 @@ Begin Form
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
-    Width =15477
+    Width =17007
     DatasheetFontHeight =11
     ItemSuffix =31
-    Right =25080
-    Bottom =11685
+    Right =17970
+    Bottom =12120
     DatasheetGridlinesColor =15132391
     RecordSource ="tblVeranstaltung"
     DatasheetFontName ="Calibri"
@@ -623,10 +623,11 @@ Begin Form
                     Name ="selectVeranstaltungOrt"
                     ControlSource ="selectVeranstaltungOrt"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT [tblOrt].[ID], [tblOrt].[NameOrt] FROM tblOrt; "
+                    RowSource ="SELECT tblOrt.ID, tblOrt.NameOrt FROM tblOrt INNER JOIN tblVeranstaltung ON tblO"
+                        "rt.ID = tblVeranstaltung.Ort; "
                     ColumnWidths ="0;1440"
-                    BaseInfo ="\"SELECT [tblOrt].[ID], [tblOrt].[NameOrt] FROM tblOrt; \";\"tblOrt\";\"\";\"ID\""
-                        ";\"NameOrt\";\"PrimaryKey\""
+                    BaseInfo ="\"SELECT tblOrt.ID, tblOrt.NameOrt FROM tblOrt INNER JOIN tblVeranstaltung ON tb"
+                        "lOrt.ID = tblVeranstaltung.Ort; \";\"tblOrt\";\"tblVeranstaltung\";\"\""
                     GroupTable =1
                     BottomPadding =150
                     GridlineColor =10921638
@@ -636,6 +637,7 @@ Begin Form
                     RightMargin =44
                     BottomMargin =22
 
+                    ShowOnlyRowSourceValues =255
                     LayoutCachedLeft =3060
                     LayoutCachedTop =3188
                     LayoutCachedWidth =6810
@@ -746,18 +748,20 @@ Begin Form
                     ColumnCount =6
                     Left =7370
                     Top =340
-                    Width =7200
+                    Width =9068
                     Height =4365
                     TabIndex =7
                     ForeColor =4210752
                     BorderColor =10921638
                     Name ="Liste29"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT [tblVeranstaltung].[idVeranstaltung], [tblVeranstaltung].[txtVeranstaltun"
-                        "gName], [tblVeranstaltung].[dateVeranstaltungDatum], [tblVeranstaltung].[dateVer"
-                        "anstaltungAnfang], [tblVeranstaltung].[dateVeranstaltungEnde], [tblVeranstaltung"
-                        "].[selectVeranstaltungOrt] FROM tblVeranstaltung; "
-                    ColumnWidths ="0;1440;1440;1440;1440;1440"
+                    RowSource ="SELECT tblVeranstaltung.idVeranstaltung, tblVeranstaltung.txtVeranstaltungName A"
+                        "S Veranstaltung, tblVeranstaltung.dateVeranstaltungDatum AS Datum, tblVeranstalt"
+                        "ung.dateVeranstaltungAnfang AS Beginn, tblVeranstaltung.dateVeranstaltungEnde AS"
+                        " Ende, tblOrt.NameOrt AS Ort, tblOrt.ID FROM tblOrt LEFT JOIN tblVeranstaltung O"
+                        "N tblOrt.ID = tblVeranstaltung.Ort ORDER BY tblVeranstaltung.txtVeranstaltungNam"
+                        "e; "
+                    ColumnWidths ="0;2009;1442;1442;1442;1442"
                     GridlineColor =10921638
                     AfterUpdateEmMacro = Begin
                         Version =196611
@@ -781,9 +785,10 @@ Begin Form
                         End
                     End
 
+                    ShowOnlyRowSourceValues =255
                     LayoutCachedLeft =7370
                     LayoutCachedTop =340
-                    LayoutCachedWidth =14570
+                    LayoutCachedWidth =16438
                     LayoutCachedHeight =4705
                     Begin
                         Begin Label
