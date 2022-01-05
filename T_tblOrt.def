@@ -81,7 +81,19 @@
     </Field_1>
   </FieldDefs>
   <Indexes>
-    <Index_0 name="PrimaryKey">
+    <Index_0 name="NameOrt">
+      <Name value="NameOrt"/>
+      <Unique value="true"/>
+      <Clustered value="false"/>
+      <Primary value="false"/>
+      <Foreign value="false"/>
+      <Required value="false"/>
+      <IgnoreNulls value="false"/>
+      <Fields>
+        <FieldNames value="+NameOrt"/>
+      </Fields>
+    </Index_0>
+    <Index_1 name="PrimaryKey">
       <Name value="PrimaryKey"/>
       <Unique value="true"/>
       <Clustered value="false"/>
@@ -92,6 +104,6 @@
       <Fields>
         <FieldNames value="+ID"/>
       </Fields>
-    </Index_0>
+    </Index_1>
   </Indexes>
 </TableDef>

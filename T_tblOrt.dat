@@ -3,7 +3,7 @@
   <Rows>
     <Row_1>
       <field_0 name="ID" binary="false" null="false" value="1"/>
-      <field_1 name="NameOrt" binary="false" null="false">Rittersaal</field_1>
+      <field_1 name="NameOrt" binary="false" null="false">Wohnzimmer</field_1>
     </Row_1>
     <Row_2>
       <field_0 name="ID" binary="false" null="false" value="2"/>
@@ -13,5 +13,9 @@
       <field_0 name="ID" binary="false" null="false" value="3"/>
       <field_1 name="NameOrt" binary="false" null="false">Wohnbereich</field_1>
     </Row_3>
+    <Row_4>
+      <field_0 name="ID" binary="false" null="false" value="13"/>
+      <field_1 name="NameOrt" binary="false" null="false">Testraum</field_1>
+    </Row_4>
   </Rows>
 </TableData>
